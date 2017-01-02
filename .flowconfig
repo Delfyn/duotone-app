@@ -1,0 +1,17 @@
+[ignore]
+<PROJECT_ROOT>/.github/
+<PROJECT_ROOT>/build/
+<PROJECT_ROOT>/config/
+<PROJECT_ROOT>/coverage/
+<PROJECT_ROOT>/infrastructure/
+<PROJECT_ROOT>/node_modules/
+<PROJECT_ROOT>/public/
+
+[include]
+
+[libs]
+<PROJECT_ROOT>/flow-typed/
+
+[options]
+module.name_mapper.extension='png' -> '<PROJECT_ROOT>/flow-typed/assets.js'
+module.name_mapper.extension='jpg' -> '<PROJECT_ROOT>/flow-typed/assets.js'

@@ -1,0 +1,42 @@
+exports[`test FlipArrow renders correctly 1`] = `
+<svg
+  className=""
+  height={40}
+  onClick={undefined}
+  viewBox="0 0 40 40"
+  width={40}
+  xmlns="http://www.w3.org/2000/svg"
+  xmlnsXlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <circle
+      cx={20}
+      cy={20}
+      id="a"
+      r={20} />
+    <mask
+      fill="#fff"
+      height={40}
+      id="b"
+      width={40}
+      x="0"
+      y="0">
+      <use
+        xlinkHref="#a" />
+    </mask>
+  </defs>
+  <g
+    fill="none"
+    fillRule="evenodd">
+    <use
+      mask="url(#b)"
+      stroke="#979797"
+      strokeWidth="4"
+      xlinkHref="#a" />
+    <g
+      fill="#9B9B9B">
+      <path
+        d="M8 20l5-7v14zM13 21v-2h14v2zM32 20l-5 7V13z" />
+    </g>
+  </g>
+</svg>
+`;

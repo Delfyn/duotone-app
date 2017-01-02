@@ -1,0 +1,47 @@
+/* CSS-Variables declarations for Storybook */
+
+:root {
+  --sm: 40rem;
+  --md: 52rem;
+  --lg: 64rem;
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 2rem;
+  --space-4: 4rem;
+  --font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    Helvetica,
+    sans-serif;
+  --monospace-font-family: "Source Code Pro", Consolas, monospace;
+  --primary-color: #fd3659;
+  --secondary-color: #243261;
+  --text-color: #333;
+  --text-color-light: #979797;
+  --bg-dark: #333;
+  --bg-dark2: #262625;
+  --bg-light: #fff;
+  --bg-gradient: linear-gradient(to bottom, #263661, #000);
+  --border-color: #dcdcdc;
+  --breakpoint-xs: (max-width: 40em);
+  --breakpoint-sm: (min-width: 40em);
+  --breakpoint-sm-md: (min-width: 40em) and (max-width: 52em);
+  --breakpoint-md: (min-width: 52em);
+  --breakpoint-md-lg: (min-width: 52em) and (max-width: 64em);
+  --breakpoint-lg: (min-width: 64em);
+  --sm: (min-width: 40rem);
+  --md: (min-width: 52rem);
+  --lg: (min-width: 64rem);
+}
+
+html, body {
+  background: transparent; /* overwrites default background gradient */
+}

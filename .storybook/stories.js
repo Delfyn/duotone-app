@@ -1,0 +1,15 @@
+require('../src/components/ActivityBar/stories.js');
+require('../src/components/Button/stories.js');
+require('../src/components/Checkmark/stories.js');
+require('../src/components/ColorPicker/stories.js');
+require('../src/components/ColorSwatch/stories.js');
+require('../src/components/DragOverlay/stories.js');
+require('../src/components/FlipArrow/stories.js');
+require('../src/components/Header/stories.js');
+require('../src/components/NewColorPicker/stories.js');
+require('../src/components/NewColorSwatch/stories.js');
+require('../src/components/Panel/stories.js');
+require('../src/components/Uploader/stories.js');
+require('../src/components/UploaderColors/stories.js');
+require('../src/components/UploaderInput/stories.js');
+require('../src/components/Wallpaper/stories.js');

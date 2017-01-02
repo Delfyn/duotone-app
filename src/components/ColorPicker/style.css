@@ -1,0 +1,10 @@
+.color-field {
+  width: 88px;
+  height: 40px;
+  border-radius: 2rem;
+  font-size: .75rem;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}

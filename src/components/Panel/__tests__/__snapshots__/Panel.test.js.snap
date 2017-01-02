@@ -1,0 +1,18 @@
+exports[`test Panel renders correctly 1`] = `
+<div
+  className="panel mt4 ml3 react-draggable"
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+  style={
+    Object {
+      "touchAction": "none",
+      "transform": "translate(0px,0px)",
+    }
+  }
+  transform={null}>
+  <div
+    className="panel-draggable" />
+</div>
+`;

@@ -1,0 +1,10 @@
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+.overlay-drop-it {
+  background-color: rgba(var(--secondary-color), 0.95);
+  color: #fff;
+}

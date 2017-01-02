@@ -1,4 +1,4 @@
-# Duotone-App ![[Travis Build Status](https://travis-ci.org/nagelflorian/duotone-app)](https://travis-ci.org/nagelflorian/duotone-app.svg?branch=master) ![[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)](https://img.shields.io/badge/code--style-airbnb-blue.svg)
+# Duotone-App [![Travis Build Status](https://travis-ci.org/nagelflorian/duotone-app.svg?branch=master)](https://travis-ci.org/nagelflorian/duotone-app) ![[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)](https://img.shields.io/badge/code--style-airbnb-blue.svg)
 
 ## Getting Started
 

@@ -1,0 +1,12 @@
+exports[`test ColorPicker renders correctly 1`] = `
+<div>
+  <div
+    className="color-field flex-auto"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    } />
+</div>
+`;

@@ -1,0 +1,27 @@
+.panel-file-picker {
+  cursor: pointer;
+}
+
+.panel-file-picker h2 {
+  font-weight: 600;
+}
+
+.panel-file-picker span {
+  font-weight: 300;
+}
+
+.panel-file-picker.has-file h2:hover {
+  color: var(--primary-color);
+}
+
+.panel-file-picker svg {
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 2px solid transparent;
+  border-radius: 100%;
+  transition: all .3s ease-in-out;
+}
+
+.file-description {
+  color: var(--text-color-light);
+}

@@ -1,0 +1,28 @@
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.page-header h2 a,
+.page-header ul a {
+  color: rgba(#fff, 0.6);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out-circ;
+}
+
+.page-header h2 a:hover,
+.page-header ul a:hover {
+  color: rgba(#fff, 1);
+}
+
+.page-header ul img {
+  opacity: 0.6;
+  transition: all .3s ease-in-out-circ;
+}
+
+.page-header ul a:hover img {
+  opacity: 1;
+}

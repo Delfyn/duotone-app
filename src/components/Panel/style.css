@@ -1,0 +1,23 @@
+.panel {
+  background-color: #fff;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1), 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  border-radius: .5rem;
+  position: fixed;
+  z-index: 3;
+  color: var(--text-color);
+  min-width: 18rem;
+  max-width: 20rem;
+}
+
+.panel-draggable {
+  cursor: move;
+  height: 1rem;
+}
+
+.panel main {
+  border-width: 1px;
+  border-color: var(--border-color);
+  border-top-style: solid;
+  border-bottom-style: solid;
+  font-size: 1rem;
+}

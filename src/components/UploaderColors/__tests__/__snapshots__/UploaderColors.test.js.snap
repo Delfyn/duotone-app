@@ -1,0 +1,83 @@
+exports[`test UploaderColors renders correctly 1`] = `
+<main
+  className="my2 px2 py2">
+  <p>
+    Select a color combination or add your own to change the look of your photo.
+  </p>
+  <div>
+    <svg
+      className="mr1 mb1"
+      height={40}
+      onClick={undefined}
+      version="1.1"
+      viewBox="0 0 40 40"
+      width={40}
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <circle
+          cx={20}
+          cy={20}
+          id="path-1"
+          r={20} />
+        <mask
+          fill="white"
+          height={40}
+          id="mask-2"
+          maskContentUnits="userSpaceOnUse"
+          maskUnits="objectBoundingBox"
+          width={40}
+          x="0"
+          y="0">
+          <use
+            xlinkHref="#path-1" />
+        </mask>
+        <polygon
+          id="path-3"
+          points="21 19 21 11 19 11 19 19 11 19 11 21 19 21 19 29 21 29 21 21 29 21 29 19" />
+        <mask
+          fill="white"
+          height={20}
+          id="mask-4"
+          maskContentUnits="userSpaceOnUse"
+          maskUnits="objectBoundingBox"
+          width={20}
+          x="0"
+          y="0">
+          <use
+            xlinkHref="#path-3" />
+        </mask>
+      </defs>
+      <g
+        fill="none"
+        fillRule="evenodd"
+        id="Page-1"
+        stroke="none"
+        strokeWidth="1"
+        transform="rotate(0 20 20)">
+        <g
+          id="Artboard-2"
+          stroke="#979797">
+          <g
+            id="Plus">
+            <g
+              id="Oval-3">
+              <use
+                mask="url(#mask-2)"
+                strokeWidth="4"
+                xlinkHref="#path-1" />
+              <use
+                fill="#D8D8D8"
+                fillRule="evenodd"
+                id="Combined-Shape"
+                mask="url(#mask-4)"
+                strokeWidth="2"
+                xlinkHref="#path-3" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+</main>
+`;

@@ -1,0 +1,25 @@
+.btn {
+  padding: .75rem 2.5rem;
+  border-radius: 2rem;
+  border: none;
+  font-size: .875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--bg-dark);
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: .8px;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+}
+
+.btn:hover:disabled {
+  background-color: var(--bg-dark);
+  cursor: not-allowed;
+}
