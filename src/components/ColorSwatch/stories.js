@@ -3,6 +3,7 @@
 import React from 'react';
 import { storiesOf, action } from '@kadira/storybook';
 import ColorSwatch from './index';
+import duotones from '../../lib/color-claim';
 
 storiesOf('ColorSwatch', module)
   .add('without props', () => (
@@ -25,6 +26,18 @@ storiesOf('ColorSwatch', module)
         secondary="#D5E5E8"
         onClick={action('clicked')}
       />
+    </div>
+  ))
+  .add('with color-claim', () => (
+    <div>
+      {duotones.map((colors, index) => (
+        <ColorSwatch
+          {...colors}
+          className="mr1 mb1"
+          onClick={action('clicked')}
+          key={index}
+        />
+      ))}
     </div>
   ))
   .add('with 0 degree rotation', () => (
