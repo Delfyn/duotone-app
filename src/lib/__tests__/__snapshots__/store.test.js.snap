@@ -1,0 +1,88 @@
+exports[`test store should return the initial state 1`] = `
+Object {
+  "colors": Object {
+    "duotones": Array [
+      Object {
+        "primary": "#D42D48",
+        "secondary": "#243261",
+      },
+      Object {
+        "primary": "#D3F178",
+        "secondary": "#263661",
+      },
+      Object {
+        "primary": "#FEFFFF",
+        "secondary": "#D5E5E8",
+      },
+      Object {
+        "primary": "#F0E3F2",
+        "secondary": "#B66BEE",
+      },
+      Object {
+        "primary": "#E2989D",
+        "secondary": "#D3D9D3",
+      },
+      Object {
+        "primary": "#6FEFED",
+        "secondary": "#DC3025",
+      },
+      Object {
+        "primary": "#DE23F0",
+        "secondary": "#4F0B56",
+      },
+      Object {
+        "primary": "#F7D157",
+        "secondary": "#EB553B",
+      },
+      Object {
+        "primary": "#95FCD7",
+        "secondary": "#1D1541",
+      },
+      Object {
+        "primary": "#75C6CD",
+        "secondary": "#5B59A5",
+      },
+      Object {
+        "primary": "#DCB6D2",
+        "secondary": "#492FCB",
+      },
+      Object {
+        "primary": "#ACE9E1",
+        "secondary": "#2724C7",
+      },
+      Object {
+        "primary": "#FCA438",
+        "secondary": "#571D76",
+      },
+      Object {
+        "primary": "#F166FD",
+        "secondary": "#4224AA",
+      },
+      Object {
+        "primary": "#FDE74B",
+        "secondary": "#01E9AA",
+      },
+      Object {
+        "primary": "#E8D4F9",
+        "secondary": "#02B5E2",
+      },
+      Object {
+        "primary": "#E8D4F9",
+        "secondary": "#0f5f73",
+      },
+    ],
+    "primary": "#D42D48",
+    "secondary": "#243261",
+  },
+  "errors": Object {},
+  "files": Object {
+    "fileName": undefined,
+    "fileSize": undefined,
+    "fileType": undefined,
+    "originalFile": undefined,
+  },
+  "ui": Object {
+    "showColorPicker": false,
+  },
+}
+`;
