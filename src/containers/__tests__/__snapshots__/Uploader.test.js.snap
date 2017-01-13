@@ -1,0 +1,120 @@
+exports[`test Uploader renders correctly 1`] = `
+<div>
+  <header
+    className="panel-file-picker has-file flex items-center px2 py1"
+    onClick={undefined}>
+    <svg
+      viewBox="24 0 72 72">
+      <path
+        d="M60.493 72C79.883 72 96 55.882 96 36.493 96 16.118 79.882 0 60.493 0 40.118 0 24 16.118 24 36.493 24 55.883 40.118 72 60.493 72z"
+        fill="#333"
+        fillRule="evenodd" />
+      <path
+        d="M58 34h-9c-.553 0-1 .452-1 1.01v1.98c0 .567.448 1.01 1 1.01h9v9c0 .553.452 1 1.01 1h1.98c.567 0 1.01-.448 1.01-1v-9h9c.553 0 1-.452 1-1.01v-1.98c0-.567-.448-1.01-1-1.01h-9v-9c0-.553-.452-1-1.01-1h-1.98c-.567 0-1.01.448-1.01 1v9z"
+        fill="#FFF"
+        fillRule="evenodd" />
+    </svg>
+    <div
+      className="mx2">
+      <h2
+        className="h4 regular m0">
+        Change image
+      </h2>
+      <span
+        className="file-description h5">
+        my-image.png... 12.06 KB
+      </span>
+    </div>
+  </header>
+  <main
+    className="my2 px2 py2">
+    <p>
+      Select a color combination or add your own to change the look of your photo.
+    </p>
+    <div>
+      <svg
+        className="mr1 mb1"
+        height={40}
+        onClick={[Function]}
+        version="1.1"
+        viewBox="0 0 40 40"
+        width={40}
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink">
+        <defs>
+          <circle
+            cx={20}
+            cy={20}
+            id="path-1"
+            r={20} />
+          <mask
+            fill="white"
+            height={40}
+            id="mask-2"
+            maskContentUnits="userSpaceOnUse"
+            maskUnits="objectBoundingBox"
+            width={40}
+            x="0"
+            y="0">
+            <use
+              xlinkHref="#path-1" />
+          </mask>
+          <polygon
+            id="path-3"
+            points="21 19 21 11 19 11 19 19 11 19 11 21 19 21 19 29 21 29 21 21 29 21 29 19" />
+          <mask
+            fill="white"
+            height={20}
+            id="mask-4"
+            maskContentUnits="userSpaceOnUse"
+            maskUnits="objectBoundingBox"
+            width={20}
+            x="0"
+            y="0">
+            <use
+              xlinkHref="#path-3" />
+          </mask>
+        </defs>
+        <g
+          fill="none"
+          fillRule="evenodd"
+          id="Page-1"
+          stroke="none"
+          strokeWidth="1"
+          transform="rotate(0 20 20)">
+          <g
+            id="Artboard-2"
+            stroke="#979797">
+            <g
+              id="Plus">
+              <g
+                id="Oval-3">
+                <use
+                  mask="url(#mask-2)"
+                  strokeWidth="4"
+                  xlinkHref="#path-1" />
+                <use
+                  fill="#D8D8D8"
+                  fillRule="evenodd"
+                  id="Combined-Shape"
+                  mask="url(#mask-4)"
+                  strokeWidth="2"
+                  xlinkHref="#path-3" />
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+  </main>
+  <footer
+    className="flex px2 pb2">
+    <button
+      className="flex-auto btn"
+      disabled={false}
+      onClick={[Function]}>
+      Download
+    </button>
+  </footer>
+</div>
+`;
