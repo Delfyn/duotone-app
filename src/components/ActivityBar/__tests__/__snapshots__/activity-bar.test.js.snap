@@ -1,1 +1,6 @@
+exports[`test ActivityBar renders active state correctly 1`] = `
+<div
+  className="activity-bar" />
+`;
+
 exports[`test ActivityBar renders correctly 1`] = `null`;
