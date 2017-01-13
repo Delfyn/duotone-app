@@ -89,6 +89,10 @@
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}"
     ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "stories.js"
+    ],
     "setupFiles": [
       "<rootDir>/config/polyfills.js"
     ],
