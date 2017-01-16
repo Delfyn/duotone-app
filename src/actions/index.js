@@ -8,7 +8,11 @@ import {
 } from './color';
 import { setInvalidFile } from './errors';
 import { addFile } from './file';
-import { toggleColorPicker } from './ui';
+import {
+  setActive,
+  setInactive,
+  toggleColorPicker,
+} from './ui';
 
 export {
   setInvalidFile,
@@ -17,5 +21,7 @@ export {
   setSecondaryColor,
   setDuotoneColor,
   addDuotoneColor,
+  setActive,
+  setInactive,
   toggleColorPicker,
 };

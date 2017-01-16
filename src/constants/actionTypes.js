@@ -13,4 +13,6 @@ export const INVALID_FILE = 'INVALID_FILE';
 export const ADD_FILE = 'ADD_FILE';
 
 // UI
+export const SET_ACTIVE = 'SET_ACTIVE';
+export const SET_INACTIVE = 'SET_INACTIVE';
 export const TOGGLE_COLOR_PICKER = 'TOGGLE_COLOR_PICKER';

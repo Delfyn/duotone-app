@@ -1,6 +1,11 @@
 /* @flow */
 
-import { ADD_DUOTONE_COLOR, TOGGLE_COLOR_PICKER } from '../constants/actionTypes';
+import {
+  ADD_DUOTONE_COLOR,
+  TOGGLE_COLOR_PICKER,
+  SET_ACTIVE,
+  SET_INACTIVE,
+} from '../constants/actionTypes';
 
 type actionType = {
   type: string,
@@ -8,6 +13,7 @@ type actionType = {
 
 export const initialState = {
   showColorPicker: false,
+  active: false,
 };
 
 const files = (state: Object = initialState, action: actionType) => {
@@ -21,6 +27,16 @@ const files = (state: Object = initialState, action: actionType) => {
       return {
         ...state,
         showColorPicker: state.showColorPicker ? !state.showColorPicker : true,
+      };
+    case SET_ACTIVE:
+      return {
+        ...state,
+        active: true,
+      };
+    case SET_INACTIVE:
+      return {
+        ...state,
+        active: false,
       };
     default:
       return state;
