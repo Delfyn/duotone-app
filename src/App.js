@@ -3,7 +3,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import store from './lib/store';
-import ActivityBarContainer from './components/ActivityBar';
+import ActivityBarContainer from './containers/ActivityBar';
 import DropzoneContainer from './containers/DropzoneContainer';
 import Panel from './components/Panel';
 import Uploader from './containers/Uploader';
