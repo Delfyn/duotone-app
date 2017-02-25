@@ -1,13 +1,19 @@
 language: node_js
 node_js:
-- '6'
-cache:
-  directories:
-  - node_modules
+  - '6'
+
+cache: yarn
+
 notifications:
   email: false
+
+script:
+  - yarn test
+  - yarn run danger
+
 before_deploy:
-- yarn run build
+  - yarn run build
+
 deploy:
   provider: s3
   access_key_id: AKIAIG24TUJL7TFPV6TA
