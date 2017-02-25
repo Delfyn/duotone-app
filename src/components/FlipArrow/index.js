@@ -6,7 +6,7 @@ import './style.css';
 type Props = {
   className?: string,
   size?: number,
-  onClick: Function,
+  onClick?: Function,
 };
 
 const FlipArrow = ({

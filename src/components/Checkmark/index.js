@@ -6,7 +6,7 @@ type Props = {
   className?: string,
   color?: string,
   size?: number,
-  onClick: Function,
+  onClick?: Function,
 };
 
 const Checkmark = ({

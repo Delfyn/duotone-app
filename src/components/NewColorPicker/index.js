@@ -29,13 +29,18 @@ const NewColorPicker = ({
   <div className={classNames('new-color-picker flex pt2', className)}>
     <ColorPicker className="mr1" color={primary} onChange={onSetPrimaryClick} />
     <ColorPicker className="mr1" color={secondary} onChange={onSetSecondaryClick} />
-    <FlipArrow
-      className="mr1"
+    <div
+      className="cursor-pointer mr1"
       onClick={() => onSetDuotoneClick(secondary, primary)}
-    />
-    <Checkmark
+    >
+      <FlipArrow />
+    </div>
+    <div
+      className="cursor-pointer"
       onClick={() => onAddDuotoneClick(primary, secondary)}
-    />
+    >
+      <Checkmark />
+    </div>
   </div>
 );
 

@@ -34,14 +34,14 @@ const UploaderColors = ({
     <div>
       {duotones.map((duotone, index) => (
         <ColorSwatch
-          className="mr1 mb1"
+          className="cursor-pointer mr1 mb1"
           onClick={onDuotoneClick}
           key={index}
           {...duotone}
         />
       ))}
       <NewColorSwatch
-        className="mr1 mb1"
+        className="cursor-pointer mr1 mb1"
         rotation={showColorPicker ? 45 : 0}
         onClick={onToggleColorPicker}
       />
