@@ -1,6 +1,9 @@
-exports[`test ActivityBar renders active state correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivityBar renders active state correctly 1`] = `
 <div
-  className="activity-bar" />
+  className="activity-bar"
+/>
 `;
 
-exports[`test ActivityBar renders correctly 1`] = `null`;
+exports[`ActivityBar renders correctly 1`] = `null`;

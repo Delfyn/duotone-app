@@ -1,4 +1,6 @@
-exports[`test actionTypes are exported correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`actionTypes are exported correctly 1`] = `
 Object {
   "actionTypes": Object {
     "ADD_DUOTONE_COLOR": "ADD_DUOTONE_COLOR",

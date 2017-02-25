@@ -1,10 +1,15 @@
-exports[`test DragOverlay renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DragOverlay renders correctly 1`] = `
 <div
-  className="overlay overlay-drop-it flex items-center z4">
+  className="overlay overlay-drop-it flex items-center z4"
+>
   <div
-    className="center mx-auto px2 py2">
+    className="center mx-auto px2 py2"
+  >
     <h2
-      className="h1 mb2">
+      className="h1 mb2"
+    >
       Drop it like it‘s hot
     </h2>
     <p>

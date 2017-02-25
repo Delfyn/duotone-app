@@ -1,4 +1,6 @@
-exports[`test ColorPicker renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorPicker renders correctly 1`] = `
 <div>
   <div
     className="color-field flex-auto"
@@ -7,6 +9,7 @@ exports[`test ColorPicker renders correctly 1`] = `
       Object {
         "backgroundColor": undefined,
       }
-    } />
+    }
+  />
 </div>
 `;

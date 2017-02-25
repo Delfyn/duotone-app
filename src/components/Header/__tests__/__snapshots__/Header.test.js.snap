@@ -1,32 +1,44 @@
-exports[`test Header renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
 <div
-  className="page-header flex z4 mx3">
+  className="page-header flex z4 mx3"
+>
   <h2
-    className="h6 my2">
+    className="h6 my2"
+  >
     <a
-      href="http://floriannagel.net">
+      href="http://floriannagel.net"
+    >
       Florian Nagel
     </a>
   </h2>
   <div
-    className="flex-auto" />
+    className="flex-auto"
+  />
   <ul>
     <li
-      className="h6 inline-block mr2">
+      className="h6 inline-block mr2"
+    >
       <a
-        href="https://www.facebook.com/sharer/sharer.php?u=http://duotoneapp.com">
+        href="https://www.facebook.com/sharer/sharer.php?u=http://duotoneapp.com"
+      >
         <img
           alt="Show some love on Facebook"
-          src="facebook.png" />
+          src="facebook.png"
+        />
       </a>
     </li>
     <li
-      className="h6 inline-block">
+      className="h6 inline-block"
+    >
       <a
-        href="https://twitter.com/intent/tweet?text=%F0%9F%99%8C%20Duotone%20image%20filter%20on%20the%20web%20by%20%F0%9F%99%8C%20http://duotoneapp.com%20cc%20@_floriannagel%20#duotone&url=&original_referer=http://duotoneapp.com">
+        href="https://twitter.com/intent/tweet?text=%F0%9F%99%8C%20Duotone%20image%20filter%20on%20the%20web%20by%20%F0%9F%99%8C%20http://duotoneapp.com%20cc%20@_floriannagel%20#duotone&url=&original_referer=http://duotoneapp.com"
+      >
         <img
           alt="Show some love on Twitter"
-          src="twitter.png" />
+          src="twitter.png"
+        />
       </a>
     </li>
   </ul>

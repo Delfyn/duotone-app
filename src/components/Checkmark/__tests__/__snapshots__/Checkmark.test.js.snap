@@ -1,4 +1,6 @@
-exports[`test Checkmark renders colors correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkmark renders colors correctly 1`] = `
 <svg
   className=""
   height={40}
@@ -6,40 +8,47 @@ exports[`test Checkmark renders colors correctly 1`] = `
   viewBox="0 0 40 40"
   width={40}
   xmlns="http://www.w3.org/2000/svg"
-  xmlnsXlink="http://www.w3.org/1999/xlink">
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
   <defs>
     <circle
       cx={20}
       cy={20}
       id="a"
-      r={20} />
+      r={20}
+    />
     <mask
       fill="#fff"
       height={40}
       id="b"
       width={40}
       x="0"
-      y="0">
+      y="0"
+    >
       <use
-        xlinkHref="#a" />
+        xlinkHref="#a"
+      />
     </mask>
   </defs>
   <g
     fill="#fd3659"
-    fillRule="evenodd">
+    fillRule="evenodd"
+  >
     <use
       mask="url(#b)"
       stroke="#fd3659"
       strokeWidth="4"
-      xlinkHref="#a" />
+      xlinkHref="#a"
+    />
     <path
       d="M17.854 26.96l12.57-12.57-1.414-1.415-11.156 11.157-6.157-6.157-1.415 1.414z"
-      fill="#fff" />
+      fill="#fff"
+    />
   </g>
 </svg>
 `;
 
-exports[`test Checkmark renders correctly 1`] = `
+exports[`Checkmark renders correctly 1`] = `
 <svg
   className=""
   height={40}
@@ -47,35 +56,42 @@ exports[`test Checkmark renders correctly 1`] = `
   viewBox="0 0 40 40"
   width={40}
   xmlns="http://www.w3.org/2000/svg"
-  xmlnsXlink="http://www.w3.org/1999/xlink">
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
   <defs>
     <circle
       cx={20}
       cy={20}
       id="a"
-      r={20} />
+      r={20}
+    />
     <mask
       fill="#fff"
       height={40}
       id="b"
       width={40}
       x="0"
-      y="0">
+      y="0"
+    >
       <use
-        xlinkHref="#a" />
+        xlinkHref="#a"
+      />
     </mask>
   </defs>
   <g
     fill="#333"
-    fillRule="evenodd">
+    fillRule="evenodd"
+  >
     <use
       mask="url(#b)"
       stroke="#333"
       strokeWidth="4"
-      xlinkHref="#a" />
+      xlinkHref="#a"
+    />
     <path
       d="M17.854 26.96l12.57-12.57-1.414-1.415-11.156 11.157-6.157-6.157-1.415 1.414z"
-      fill="#fff" />
+      fill="#fff"
+    />
   </g>
 </svg>
 `;

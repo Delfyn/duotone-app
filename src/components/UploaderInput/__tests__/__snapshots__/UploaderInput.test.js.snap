@@ -1,51 +1,66 @@
-exports[`test UploaderInput renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploaderInput renders correctly 1`] = `
 <header
   className="panel-file-picker flex items-center px2 py1"
-  onClick={undefined}>
+  onClick={undefined}
+>
   <svg
-    viewBox="24 0 72 72">
+    viewBox="24 0 72 72"
+  >
     <path
       d="M60.493 72C79.883 72 96 55.882 96 36.493 96 16.118 79.882 0 60.493 0 40.118 0 24 16.118 24 36.493 24 55.883 40.118 72 60.493 72z"
       fill="#333"
-      fillRule="evenodd" />
+      fillRule="evenodd"
+    />
     <path
       d="M58 34h-9c-.553 0-1 .452-1 1.01v1.98c0 .567.448 1.01 1 1.01h9v9c0 .553.452 1 1.01 1h1.98c.567 0 1.01-.448 1.01-1v-9h9c.553 0 1-.452 1-1.01v-1.98c0-.567-.448-1.01-1-1.01h-9v-9c0-.553-.452-1-1.01-1h-1.98c-.567 0-1.01.448-1.01 1v9z"
       fill="#FFF"
-      fillRule="evenodd" />
+      fillRule="evenodd"
+    />
   </svg>
   <div
-    className="mx2">
+    className="mx2"
+  >
     <h2
-      className="h3 regular m0">
+      className="h3 regular m0"
+    >
       Choose image
     </h2>
   </div>
 </header>
 `;
 
-exports[`test UploaderInput renders file description correctly 1`] = `
+exports[`UploaderInput renders file description correctly 1`] = `
 <header
   className="panel-file-picker has-file flex items-center px2 py1"
-  onClick={undefined}>
+  onClick={undefined}
+>
   <svg
-    viewBox="24 0 72 72">
+    viewBox="24 0 72 72"
+  >
     <path
       d="M60.493 72C79.883 72 96 55.882 96 36.493 96 16.118 79.882 0 60.493 0 40.118 0 24 16.118 24 36.493 24 55.883 40.118 72 60.493 72z"
       fill="#333"
-      fillRule="evenodd" />
+      fillRule="evenodd"
+    />
     <path
       d="M58 34h-9c-.553 0-1 .452-1 1.01v1.98c0 .567.448 1.01 1 1.01h9v9c0 .553.452 1 1.01 1h1.98c.567 0 1.01-.448 1.01-1v-9h9c.553 0 1-.452 1-1.01v-1.98c0-.567-.448-1.01-1-1.01h-9v-9c0-.553-.452-1-1.01-1h-1.98c-.567 0-1.01.448-1.01 1v9z"
       fill="#FFF"
-      fillRule="evenodd" />
+      fillRule="evenodd"
+    />
   </svg>
   <div
-    className="mx2">
+    className="mx2"
+  >
     <h2
-      className="h4 regular m0">
+      className="h4 regular m0"
+    >
       Change image
     </h2>
     <span
-      className="file-description h5">
+      className="file-description h5"
+    >
       my-image.png... 12.06 KB
     </span>
   </div>

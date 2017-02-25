@@ -1,4 +1,6 @@
-exports[`test Dropzone renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropzone renders correctly 1`] = `
 <div
   className=""
   onClick={[Function]}
@@ -7,9 +9,11 @@ exports[`test Dropzone renders correctly 1`] = `
   onDragOver={[Function]}
   onDragStart={[Function]}
   onDrop={[Function]}
-  style={Object {}}>
+  style={Object {}}
+>
   <div
-    className="drop-area z3" />
+    className="drop-area z3"
+  />
   <input
     accept="image/*"
     multiple={false}
@@ -19,6 +23,7 @@ exports[`test Dropzone renders correctly 1`] = `
         "display": "none",
       }
     }
-    type="file" />
+    type="file"
+  />
 </div>
 `;

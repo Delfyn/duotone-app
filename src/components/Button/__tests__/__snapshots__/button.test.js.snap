@@ -1,26 +1,31 @@
-exports[`test Button renders className correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders className correctly 1`] = `
 <button
   className="btn-addon btn"
   disabled={false}
-  onClick={undefined}>
+  onClick={undefined}
+>
   Click here
 </button>
 `;
 
-exports[`test Button renders correctly 1`] = `
+exports[`Button renders correctly 1`] = `
 <button
   className="btn"
   disabled={false}
-  onClick={[Function]}>
+  onClick={[Function]}
+>
   Click here
 </button>
 `;
 
-exports[`test Button renders correctly 2`] = `
+exports[`Button renders correctly 2`] = `
 <button
   className="btn"
   disabled={false}
-  onClick={[Function]}>
+  onClick={[Function]}
+>
   Click here
 </button>
 `;

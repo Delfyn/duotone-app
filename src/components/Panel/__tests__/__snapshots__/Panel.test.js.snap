@@ -1,4 +1,6 @@
-exports[`test Panel renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Panel renders correctly 1`] = `
 <div
   className="panel mt4 ml3 react-draggable"
   onMouseDown={[Function]}
@@ -11,8 +13,10 @@ exports[`test Panel renders correctly 1`] = `
       "transform": "translate(0px,0px)",
     }
   }
-  transform={null}>
+  transform={null}
+>
   <div
-    className="panel-draggable" />
+    className="panel-draggable"
+  />
 </div>
 `;

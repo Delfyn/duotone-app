@@ -1,16 +1,21 @@
-exports[`test ImagePreview renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImagePreview renders correctly 1`] = `
 <div
-  className="image-background-wrapper flex items-center">
+  className="image-background-wrapper flex items-center"
+>
   <div
     className="image-background z1"
     style={
       Object {
         "backgroundImage": "url()",
       }
-    } />
+    }
+  />
   <img
     alt="my-image.png"
     className="image-preview mx-auto z2"
-    src="" />
+    src=""
+  />
 </div>
 `;

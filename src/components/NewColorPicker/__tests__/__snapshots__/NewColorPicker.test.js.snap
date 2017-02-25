@@ -1,6 +1,9 @@
-exports[`test NewColorPicker renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewColorPicker renders correctly 1`] = `
 <div
-  className="new-color-picker flex pt2 example">
+  className="new-color-picker flex pt2 example"
+>
   <div>
     <div
       className="color-field flex-auto mr1"
@@ -9,7 +12,8 @@ exports[`test NewColorPicker renders correctly 1`] = `
         Object {
           "backgroundColor": "#fd3659",
         }
-      }>
+      }
+    >
       #fd3659
     </div>
   </div>
@@ -21,13 +25,15 @@ exports[`test NewColorPicker renders correctly 1`] = `
         Object {
           "backgroundColor": "#243261",
         }
-      }>
+      }
+    >
       #243261
     </div>
   </div>
   <div
     className="cursor-pointer mr1"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     <svg
       className=""
       height={40}
@@ -35,43 +41,52 @@ exports[`test NewColorPicker renders correctly 1`] = `
       viewBox="0 0 40 40"
       width={40}
       xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink">
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
       <defs>
         <circle
           cx={20}
           cy={20}
           id="a"
-          r={20} />
+          r={20}
+        />
         <mask
           fill="#fff"
           height={40}
           id="b"
           width={40}
           x="0"
-          y="0">
+          y="0"
+        >
           <use
-            xlinkHref="#a" />
+            xlinkHref="#a"
+          />
         </mask>
       </defs>
       <g
         fill="none"
-        fillRule="evenodd">
+        fillRule="evenodd"
+      >
         <use
           mask="url(#b)"
           stroke="#979797"
           strokeWidth="4"
-          xlinkHref="#a" />
+          xlinkHref="#a"
+        />
         <g
-          fill="#9B9B9B">
+          fill="#9B9B9B"
+        >
           <path
-            d="M8 20l5-7v14zM13 21v-2h14v2zM32 20l-5 7V13z" />
+            d="M8 20l5-7v14zM13 21v-2h14v2zM32 20l-5 7V13z"
+          />
         </g>
       </g>
     </svg>
   </div>
   <div
     className="cursor-pointer"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     <svg
       className=""
       height={40}
@@ -79,44 +94,52 @@ exports[`test NewColorPicker renders correctly 1`] = `
       viewBox="0 0 40 40"
       width={40}
       xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink">
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
       <defs>
         <circle
           cx={20}
           cy={20}
           id="a"
-          r={20} />
+          r={20}
+        />
         <mask
           fill="#fff"
           height={40}
           id="b"
           width={40}
           x="0"
-          y="0">
+          y="0"
+        >
           <use
-            xlinkHref="#a" />
+            xlinkHref="#a"
+          />
         </mask>
       </defs>
       <g
         fill="#333"
-        fillRule="evenodd">
+        fillRule="evenodd"
+      >
         <use
           mask="url(#b)"
           stroke="#333"
           strokeWidth="4"
-          xlinkHref="#a" />
+          xlinkHref="#a"
+        />
         <path
           d="M17.854 26.96l12.57-12.57-1.414-1.415-11.156 11.157-6.157-6.157-1.415 1.414z"
-          fill="#fff" />
+          fill="#fff"
+        />
       </g>
     </svg>
   </div>
 </div>
 `;
 
-exports[`test NewColorPicker renders correctly 2`] = `
+exports[`NewColorPicker renders correctly 2`] = `
 <div
-  className="new-color-picker flex pt2 example">
+  className="new-color-picker flex pt2 example"
+>
   <div>
     <div
       className="color-field flex-auto mr1"
@@ -125,7 +148,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
         Object {
           "backgroundColor": "#fd3659",
         }
-      }>
+      }
+    >
       #fd3659
     </div>
     <div
@@ -134,7 +158,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
           "position": "absolute",
           "zIndex": "5",
         }
-      }>
+      }
+    >
       <div
         onClick={[Function]}
         style={
@@ -145,7 +170,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
             "right": "-1000px",
             "top": "-1000px",
           }
-        } />
+        }
+      />
       <div
         className="chrome-picker"
         style={
@@ -165,7 +191,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
             "msBoxShadow": "0 0 2px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.3)",
             "width": "225px",
           }
-        }>
+        }
+      >
         <div
           style={
             Object {
@@ -179,7 +206,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
               "position": "relative",
               "width": "100%",
             }
-          }>
+          }
+        >
           <div
             onMouseDown={[Function]}
             onTouchMove={[Function]}
@@ -198,7 +226,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                 "right": "0px",
                 "top": "0px",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
@@ -209,7 +238,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                   "right": "0px",
                   "top": "0px",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -225,7 +255,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                     "right": "0px",
                     "top": "0px",
                   }
-                } />
+                }
+              />
               <div
                 style={
                   Object {
@@ -234,7 +265,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                     "position": "absolute",
                     "top": "0.7843137254901933%",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -256,7 +288,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                       "transform": "translate(-6px, -6px)",
                       "width": "12px",
                     }
-                  } />
+                  }
+                />
               </div>
             </div>
           </div>
@@ -266,20 +299,23 @@ exports[`test NewColorPicker renders correctly 2`] = `
             Object {
               "padding": "16px 16px 12px",
             }
-          }>
+          }
+        >
           <div
             className="flexbox-fix"
             style={
               Object {
                 "display": "flex",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
                   "width": "22px",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -294,7 +330,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                     "position": "relative",
                     "width": "10px",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -316,7 +353,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                       "top": "0px",
                       "zIndex": "2",
                     }
-                  } />
+                  }
+                />
                 <div
                   style={
                     Object {
@@ -327,7 +365,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  } />
+                  }
+                />
               </div>
             </div>
             <div
@@ -339,7 +378,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                   "flex": "1",
                   "msFlex": "1",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -347,7 +387,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                     "marginBottom": "0px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -369,7 +410,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  }>
+                  }
+                >
                   <div
                     onMouseDown={[Function]}
                     onTouchMove={[Function]}
@@ -380,14 +422,16 @@ exports[`test NewColorPicker renders correctly 2`] = `
                         "margin": "0 2px",
                         "position": "relative",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
                           "left": "97.06867671691792%",
                           "position": "absolute",
                         }
-                      }>
+                      }
+                    >
                       <div
                         style={
                           Object {
@@ -410,7 +454,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                             "transform": "translate(-6px, -1px)",
                             "width": "12px",
                           }
-                        } />
+                        }
+                      />
                     </div>
                   </div>
                 </div>
@@ -422,7 +467,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                     "height": "10px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -437,7 +483,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  }>
+                  }
+                >
                   <div
                     style={
                       Object {
@@ -448,7 +495,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                         "right": "0px",
                         "top": "0px",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
@@ -459,7 +507,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                           "right": "0px",
                           "top": "0px",
                         }
-                      } />
+                      }
+                    />
                   </div>
                   <div
                     style={
@@ -482,7 +531,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                         "right": "0px",
                         "top": "0px",
                       }
-                    } />
+                    }
+                  />
                   <div
                     onMouseDown={[Function]}
                     onTouchMove={[Function]}
@@ -493,14 +543,16 @@ exports[`test NewColorPicker renders correctly 2`] = `
                         "margin": "0 3px",
                         "position": "relative",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
                           "left": "100%",
                           "position": "absolute",
                         }
-                      }>
+                      }
+                    >
                       <div
                         style={
                           Object {
@@ -523,7 +575,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                             "transform": "translate(-6px, -1px)",
                             "width": "12px",
                           }
-                        } />
+                        }
+                      />
                     </div>
                   </div>
                 </div>
@@ -537,7 +590,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                 "display": "flex",
                 "paddingTop": "16px",
               }
-            }>
+            }
+          >
             <div
               className="flexbox-fix"
               style={
@@ -550,20 +604,23 @@ exports[`test NewColorPicker renders correctly 2`] = `
                   "marginLeft": "-6px",
                   "msFlex": "1",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
                     "paddingLeft": "6px",
                     "width": "100%",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
                       "position": "relative",
                     }
-                  }>
+                  }
+                >
                   <input
                     onBlur={[Function]}
                     onChange={[Function]}
@@ -589,7 +646,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                         "width": "100%",
                       }
                     }
-                    value="#FD3659" />
+                    value="#FD3659"
+                  />
                   <span
                     onMouseDown={[Function]}
                     style={
@@ -602,7 +660,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                         "textAlign": "center",
                         "textTransform": "uppercase",
                       }
-                    }>
+                    }
+                  >
                     hex
                   </span>
                 </div>
@@ -615,7 +674,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                   "textAlign": "right",
                   "width": "32px",
                 }
-              }>
+              }
+            >
               <div
                 onClick={[Function]}
                 style={
@@ -625,7 +685,8 @@ exports[`test NewColorPicker renders correctly 2`] = `
                     "marginTop": "12px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <svg
                   onMouseEnter={[Function]}
                   onMouseOut={[Function]}
@@ -642,13 +703,16 @@ exports[`test NewColorPicker renders correctly 2`] = `
                       "width": "24px",
                     }
                   }
-                  viewBox="0 0 24 24">
+                  viewBox="0 0 24 24"
+                >
                   <path
                     d="M12,5.83L15.17,9L16.58,7.59L12,3L7.41,7.59L8.83,9L12,5.83Z"
-                    fill="#333" />
+                    fill="#333"
+                  />
                   <path
                     d="M12,18.17L8.83,15L7.42,16.41L12,21L16.59,16.41L15.17,15Z"
-                    fill="#333" />
+                    fill="#333"
+                  />
                 </svg>
               </div>
             </div>
@@ -665,13 +729,15 @@ exports[`test NewColorPicker renders correctly 2`] = `
         Object {
           "backgroundColor": "#243261",
         }
-      }>
+      }
+    >
       #243261
     </div>
   </div>
   <div
     className="cursor-pointer mr1"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     <svg
       className=""
       height={40}
@@ -679,43 +745,52 @@ exports[`test NewColorPicker renders correctly 2`] = `
       viewBox="0 0 40 40"
       width={40}
       xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink">
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
       <defs>
         <circle
           cx={20}
           cy={20}
           id="a"
-          r={20} />
+          r={20}
+        />
         <mask
           fill="#fff"
           height={40}
           id="b"
           width={40}
           x="0"
-          y="0">
+          y="0"
+        >
           <use
-            xlinkHref="#a" />
+            xlinkHref="#a"
+          />
         </mask>
       </defs>
       <g
         fill="none"
-        fillRule="evenodd">
+        fillRule="evenodd"
+      >
         <use
           mask="url(#b)"
           stroke="#979797"
           strokeWidth="4"
-          xlinkHref="#a" />
+          xlinkHref="#a"
+        />
         <g
-          fill="#9B9B9B">
+          fill="#9B9B9B"
+        >
           <path
-            d="M8 20l5-7v14zM13 21v-2h14v2zM32 20l-5 7V13z" />
+            d="M8 20l5-7v14zM13 21v-2h14v2zM32 20l-5 7V13z"
+          />
         </g>
       </g>
     </svg>
   </div>
   <div
     className="cursor-pointer"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     <svg
       className=""
       height={40}
@@ -723,44 +798,52 @@ exports[`test NewColorPicker renders correctly 2`] = `
       viewBox="0 0 40 40"
       width={40}
       xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink">
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
       <defs>
         <circle
           cx={20}
           cy={20}
           id="a"
-          r={20} />
+          r={20}
+        />
         <mask
           fill="#fff"
           height={40}
           id="b"
           width={40}
           x="0"
-          y="0">
+          y="0"
+        >
           <use
-            xlinkHref="#a" />
+            xlinkHref="#a"
+          />
         </mask>
       </defs>
       <g
         fill="#333"
-        fillRule="evenodd">
+        fillRule="evenodd"
+      >
         <use
           mask="url(#b)"
           stroke="#333"
           strokeWidth="4"
-          xlinkHref="#a" />
+          xlinkHref="#a"
+        />
         <path
           d="M17.854 26.96l12.57-12.57-1.414-1.415-11.156 11.157-6.157-6.157-1.415 1.414z"
-          fill="#fff" />
+          fill="#fff"
+        />
       </g>
     </svg>
   </div>
 </div>
 `;
 
-exports[`test NewColorPicker renders correctly 3`] = `
+exports[`NewColorPicker renders correctly 3`] = `
 <div
-  className="new-color-picker flex pt2 example">
+  className="new-color-picker flex pt2 example"
+>
   <div>
     <div
       className="color-field flex-auto mr1"
@@ -769,7 +852,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
         Object {
           "backgroundColor": "#fd3659",
         }
-      }>
+      }
+    >
       #fd3659
     </div>
     <div
@@ -778,7 +862,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
           "position": "absolute",
           "zIndex": "5",
         }
-      }>
+      }
+    >
       <div
         onClick={[Function]}
         style={
@@ -789,7 +874,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
             "right": "-1000px",
             "top": "-1000px",
           }
-        } />
+        }
+      />
       <div
         className="chrome-picker"
         style={
@@ -809,7 +895,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
             "msBoxShadow": "0 0 2px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.3)",
             "width": "225px",
           }
-        }>
+        }
+      >
         <div
           style={
             Object {
@@ -823,7 +910,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
               "position": "relative",
               "width": "100%",
             }
-          }>
+          }
+        >
           <div
             onMouseDown={[Function]}
             onTouchMove={[Function]}
@@ -842,7 +930,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                 "right": "0px",
                 "top": "0px",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
@@ -853,7 +942,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                   "right": "0px",
                   "top": "0px",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -869,7 +959,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                     "right": "0px",
                     "top": "0px",
                   }
-                } />
+                }
+              />
               <div
                 style={
                   Object {
@@ -878,7 +969,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                     "position": "absolute",
                     "top": "0.7843137254901933%",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -900,7 +992,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                       "transform": "translate(-6px, -6px)",
                       "width": "12px",
                     }
-                  } />
+                  }
+                />
               </div>
             </div>
           </div>
@@ -910,20 +1003,23 @@ exports[`test NewColorPicker renders correctly 3`] = `
             Object {
               "padding": "16px 16px 12px",
             }
-          }>
+          }
+        >
           <div
             className="flexbox-fix"
             style={
               Object {
                 "display": "flex",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
                   "width": "22px",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -938,7 +1034,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                     "position": "relative",
                     "width": "10px",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -960,7 +1057,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                       "top": "0px",
                       "zIndex": "2",
                     }
-                  } />
+                  }
+                />
                 <div
                   style={
                     Object {
@@ -971,7 +1069,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  } />
+                  }
+                />
               </div>
             </div>
             <div
@@ -983,7 +1082,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                   "flex": "1",
                   "msFlex": "1",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -991,7 +1091,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                     "marginBottom": "0px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -1013,7 +1114,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  }>
+                  }
+                >
                   <div
                     onMouseDown={[Function]}
                     onTouchMove={[Function]}
@@ -1024,14 +1126,16 @@ exports[`test NewColorPicker renders correctly 3`] = `
                         "margin": "0 2px",
                         "position": "relative",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
                           "left": "97.06867671691792%",
                           "position": "absolute",
                         }
-                      }>
+                      }
+                    >
                       <div
                         style={
                           Object {
@@ -1054,7 +1158,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                             "transform": "translate(-6px, -1px)",
                             "width": "12px",
                           }
-                        } />
+                        }
+                      />
                     </div>
                   </div>
                 </div>
@@ -1066,7 +1171,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                     "height": "10px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -1081,7 +1187,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  }>
+                  }
+                >
                   <div
                     style={
                       Object {
@@ -1092,7 +1199,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                         "right": "0px",
                         "top": "0px",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
@@ -1103,7 +1211,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                           "right": "0px",
                           "top": "0px",
                         }
-                      } />
+                      }
+                    />
                   </div>
                   <div
                     style={
@@ -1126,7 +1235,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                         "right": "0px",
                         "top": "0px",
                       }
-                    } />
+                    }
+                  />
                   <div
                     onMouseDown={[Function]}
                     onTouchMove={[Function]}
@@ -1137,14 +1247,16 @@ exports[`test NewColorPicker renders correctly 3`] = `
                         "margin": "0 3px",
                         "position": "relative",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
                           "left": "100%",
                           "position": "absolute",
                         }
-                      }>
+                      }
+                    >
                       <div
                         style={
                           Object {
@@ -1167,7 +1279,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                             "transform": "translate(-6px, -1px)",
                             "width": "12px",
                           }
-                        } />
+                        }
+                      />
                     </div>
                   </div>
                 </div>
@@ -1181,7 +1294,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                 "display": "flex",
                 "paddingTop": "16px",
               }
-            }>
+            }
+          >
             <div
               className="flexbox-fix"
               style={
@@ -1194,20 +1308,23 @@ exports[`test NewColorPicker renders correctly 3`] = `
                   "marginLeft": "-6px",
                   "msFlex": "1",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
                     "paddingLeft": "6px",
                     "width": "100%",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
                       "position": "relative",
                     }
-                  }>
+                  }
+                >
                   <input
                     onBlur={[Function]}
                     onChange={[Function]}
@@ -1233,7 +1350,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                         "width": "100%",
                       }
                     }
-                    value="#FD3659" />
+                    value="#FD3659"
+                  />
                   <span
                     onMouseDown={[Function]}
                     style={
@@ -1246,7 +1364,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                         "textAlign": "center",
                         "textTransform": "uppercase",
                       }
-                    }>
+                    }
+                  >
                     hex
                   </span>
                 </div>
@@ -1259,7 +1378,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                   "textAlign": "right",
                   "width": "32px",
                 }
-              }>
+              }
+            >
               <div
                 onClick={[Function]}
                 style={
@@ -1269,7 +1389,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                     "marginTop": "12px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <svg
                   onMouseEnter={[Function]}
                   onMouseOut={[Function]}
@@ -1286,13 +1407,16 @@ exports[`test NewColorPicker renders correctly 3`] = `
                       "width": "24px",
                     }
                   }
-                  viewBox="0 0 24 24">
+                  viewBox="0 0 24 24"
+                >
                   <path
                     d="M12,5.83L15.17,9L16.58,7.59L12,3L7.41,7.59L8.83,9L12,5.83Z"
-                    fill="#333" />
+                    fill="#333"
+                  />
                   <path
                     d="M12,18.17L8.83,15L7.42,16.41L12,21L16.59,16.41L15.17,15Z"
-                    fill="#333" />
+                    fill="#333"
+                  />
                 </svg>
               </div>
             </div>
@@ -1309,7 +1433,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
         Object {
           "backgroundColor": "#243261",
         }
-      }>
+      }
+    >
       #243261
     </div>
     <div
@@ -1318,7 +1443,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
           "position": "absolute",
           "zIndex": "5",
         }
-      }>
+      }
+    >
       <div
         onClick={[Function]}
         style={
@@ -1329,7 +1455,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
             "right": "-1000px",
             "top": "-1000px",
           }
-        } />
+        }
+      />
       <div
         className="chrome-picker"
         style={
@@ -1349,7 +1476,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
             "msBoxShadow": "0 0 2px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.3)",
             "width": "225px",
           }
-        }>
+        }
+      >
         <div
           style={
             Object {
@@ -1363,7 +1491,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
               "position": "relative",
               "width": "100%",
             }
-          }>
+          }
+        >
           <div
             onMouseDown={[Function]}
             onTouchMove={[Function]}
@@ -1382,7 +1511,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                 "right": "0px",
                 "top": "0px",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
@@ -1393,7 +1523,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                   "right": "0px",
                   "top": "0px",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -1409,7 +1540,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                     "right": "0px",
                     "top": "0px",
                   }
-                } />
+                }
+              />
               <div
                 style={
                   Object {
@@ -1418,7 +1550,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                     "position": "absolute",
                     "top": "61.96078431372549%",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -1440,7 +1573,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                       "transform": "translate(-6px, -6px)",
                       "width": "12px",
                     }
-                  } />
+                  }
+                />
               </div>
             </div>
           </div>
@@ -1450,20 +1584,23 @@ exports[`test NewColorPicker renders correctly 3`] = `
             Object {
               "padding": "16px 16px 12px",
             }
-          }>
+          }
+        >
           <div
             className="flexbox-fix"
             style={
               Object {
                 "display": "flex",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
                   "width": "22px",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -1478,7 +1615,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                     "position": "relative",
                     "width": "10px",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -1500,7 +1638,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                       "top": "0px",
                       "zIndex": "2",
                     }
-                  } />
+                  }
+                />
                 <div
                   style={
                     Object {
@@ -1511,7 +1650,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  } />
+                  }
+                />
               </div>
             </div>
             <div
@@ -1523,7 +1663,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                   "flex": "1",
                   "msFlex": "1",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -1531,7 +1672,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                     "marginBottom": "0px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -1553,7 +1695,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  }>
+                  }
+                >
                   <div
                     onMouseDown={[Function]}
                     onTouchMove={[Function]}
@@ -1564,14 +1707,16 @@ exports[`test NewColorPicker renders correctly 3`] = `
                         "margin": "0 2px",
                         "position": "relative",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
                           "left": "62.841530054644814%",
                           "position": "absolute",
                         }
-                      }>
+                      }
+                    >
                       <div
                         style={
                           Object {
@@ -1594,7 +1739,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                             "transform": "translate(-6px, -1px)",
                             "width": "12px",
                           }
-                        } />
+                        }
+                      />
                     </div>
                   </div>
                 </div>
@@ -1606,7 +1752,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                     "height": "10px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -1621,7 +1768,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  }>
+                  }
+                >
                   <div
                     style={
                       Object {
@@ -1632,7 +1780,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                         "right": "0px",
                         "top": "0px",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
@@ -1643,7 +1792,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                           "right": "0px",
                           "top": "0px",
                         }
-                      } />
+                      }
+                    />
                   </div>
                   <div
                     style={
@@ -1666,7 +1816,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                         "right": "0px",
                         "top": "0px",
                       }
-                    } />
+                    }
+                  />
                   <div
                     onMouseDown={[Function]}
                     onTouchMove={[Function]}
@@ -1677,14 +1828,16 @@ exports[`test NewColorPicker renders correctly 3`] = `
                         "margin": "0 3px",
                         "position": "relative",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
                           "left": "100%",
                           "position": "absolute",
                         }
-                      }>
+                      }
+                    >
                       <div
                         style={
                           Object {
@@ -1707,7 +1860,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                             "transform": "translate(-6px, -1px)",
                             "width": "12px",
                           }
-                        } />
+                        }
+                      />
                     </div>
                   </div>
                 </div>
@@ -1721,7 +1875,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                 "display": "flex",
                 "paddingTop": "16px",
               }
-            }>
+            }
+          >
             <div
               className="flexbox-fix"
               style={
@@ -1734,20 +1889,23 @@ exports[`test NewColorPicker renders correctly 3`] = `
                   "marginLeft": "-6px",
                   "msFlex": "1",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
                     "paddingLeft": "6px",
                     "width": "100%",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
                       "position": "relative",
                     }
-                  }>
+                  }
+                >
                   <input
                     onBlur={[Function]}
                     onChange={[Function]}
@@ -1773,7 +1931,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                         "width": "100%",
                       }
                     }
-                    value="#243261" />
+                    value="#243261"
+                  />
                   <span
                     onMouseDown={[Function]}
                     style={
@@ -1786,7 +1945,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                         "textAlign": "center",
                         "textTransform": "uppercase",
                       }
-                    }>
+                    }
+                  >
                     hex
                   </span>
                 </div>
@@ -1799,7 +1959,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                   "textAlign": "right",
                   "width": "32px",
                 }
-              }>
+              }
+            >
               <div
                 onClick={[Function]}
                 style={
@@ -1809,7 +1970,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
                     "marginTop": "12px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <svg
                   onMouseEnter={[Function]}
                   onMouseOut={[Function]}
@@ -1826,13 +1988,16 @@ exports[`test NewColorPicker renders correctly 3`] = `
                       "width": "24px",
                     }
                   }
-                  viewBox="0 0 24 24">
+                  viewBox="0 0 24 24"
+                >
                   <path
                     d="M12,5.83L15.17,9L16.58,7.59L12,3L7.41,7.59L8.83,9L12,5.83Z"
-                    fill="#333" />
+                    fill="#333"
+                  />
                   <path
                     d="M12,18.17L8.83,15L7.42,16.41L12,21L16.59,16.41L15.17,15Z"
-                    fill="#333" />
+                    fill="#333"
+                  />
                 </svg>
               </div>
             </div>
@@ -1843,7 +2008,8 @@ exports[`test NewColorPicker renders correctly 3`] = `
   </div>
   <div
     className="cursor-pointer mr1"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     <svg
       className=""
       height={40}
@@ -1851,43 +2017,52 @@ exports[`test NewColorPicker renders correctly 3`] = `
       viewBox="0 0 40 40"
       width={40}
       xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink">
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
       <defs>
         <circle
           cx={20}
           cy={20}
           id="a"
-          r={20} />
+          r={20}
+        />
         <mask
           fill="#fff"
           height={40}
           id="b"
           width={40}
           x="0"
-          y="0">
+          y="0"
+        >
           <use
-            xlinkHref="#a" />
+            xlinkHref="#a"
+          />
         </mask>
       </defs>
       <g
         fill="none"
-        fillRule="evenodd">
+        fillRule="evenodd"
+      >
         <use
           mask="url(#b)"
           stroke="#979797"
           strokeWidth="4"
-          xlinkHref="#a" />
+          xlinkHref="#a"
+        />
         <g
-          fill="#9B9B9B">
+          fill="#9B9B9B"
+        >
           <path
-            d="M8 20l5-7v14zM13 21v-2h14v2zM32 20l-5 7V13z" />
+            d="M8 20l5-7v14zM13 21v-2h14v2zM32 20l-5 7V13z"
+          />
         </g>
       </g>
     </svg>
   </div>
   <div
     className="cursor-pointer"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     <svg
       className=""
       height={40}
@@ -1895,44 +2070,52 @@ exports[`test NewColorPicker renders correctly 3`] = `
       viewBox="0 0 40 40"
       width={40}
       xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink">
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
       <defs>
         <circle
           cx={20}
           cy={20}
           id="a"
-          r={20} />
+          r={20}
+        />
         <mask
           fill="#fff"
           height={40}
           id="b"
           width={40}
           x="0"
-          y="0">
+          y="0"
+        >
           <use
-            xlinkHref="#a" />
+            xlinkHref="#a"
+          />
         </mask>
       </defs>
       <g
         fill="#333"
-        fillRule="evenodd">
+        fillRule="evenodd"
+      >
         <use
           mask="url(#b)"
           stroke="#333"
           strokeWidth="4"
-          xlinkHref="#a" />
+          xlinkHref="#a"
+        />
         <path
           d="M17.854 26.96l12.57-12.57-1.414-1.415-11.156 11.157-6.157-6.157-1.415 1.414z"
-          fill="#fff" />
+          fill="#fff"
+        />
       </g>
     </svg>
   </div>
 </div>
 `;
 
-exports[`test NewColorPicker renders correctly 4`] = `
+exports[`NewColorPicker renders correctly 4`] = `
 <div
-  className="new-color-picker flex pt2 example">
+  className="new-color-picker flex pt2 example"
+>
   <div>
     <div
       className="color-field flex-auto mr1"
@@ -1941,7 +2124,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
         Object {
           "backgroundColor": "#fd3659",
         }
-      }>
+      }
+    >
       #fd3659
     </div>
     <div
@@ -1950,7 +2134,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
           "position": "absolute",
           "zIndex": "5",
         }
-      }>
+      }
+    >
       <div
         onClick={[Function]}
         style={
@@ -1961,7 +2146,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
             "right": "-1000px",
             "top": "-1000px",
           }
-        } />
+        }
+      />
       <div
         className="chrome-picker"
         style={
@@ -1981,7 +2167,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
             "msBoxShadow": "0 0 2px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.3)",
             "width": "225px",
           }
-        }>
+        }
+      >
         <div
           style={
             Object {
@@ -1995,7 +2182,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
               "position": "relative",
               "width": "100%",
             }
-          }>
+          }
+        >
           <div
             onMouseDown={[Function]}
             onTouchMove={[Function]}
@@ -2014,7 +2202,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                 "right": "0px",
                 "top": "0px",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
@@ -2025,7 +2214,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                   "right": "0px",
                   "top": "0px",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -2041,7 +2231,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                     "right": "0px",
                     "top": "0px",
                   }
-                } />
+                }
+              />
               <div
                 style={
                   Object {
@@ -2050,7 +2241,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                     "position": "absolute",
                     "top": "0.7843137254901933%",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -2072,7 +2264,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                       "transform": "translate(-6px, -6px)",
                       "width": "12px",
                     }
-                  } />
+                  }
+                />
               </div>
             </div>
           </div>
@@ -2082,20 +2275,23 @@ exports[`test NewColorPicker renders correctly 4`] = `
             Object {
               "padding": "16px 16px 12px",
             }
-          }>
+          }
+        >
           <div
             className="flexbox-fix"
             style={
               Object {
                 "display": "flex",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
                   "width": "22px",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -2110,7 +2306,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                     "position": "relative",
                     "width": "10px",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -2132,7 +2329,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                       "top": "0px",
                       "zIndex": "2",
                     }
-                  } />
+                  }
+                />
                 <div
                   style={
                     Object {
@@ -2143,7 +2341,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  } />
+                  }
+                />
               </div>
             </div>
             <div
@@ -2155,7 +2354,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                   "flex": "1",
                   "msFlex": "1",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -2163,7 +2363,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                     "marginBottom": "0px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -2185,7 +2386,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  }>
+                  }
+                >
                   <div
                     onMouseDown={[Function]}
                     onTouchMove={[Function]}
@@ -2196,14 +2398,16 @@ exports[`test NewColorPicker renders correctly 4`] = `
                         "margin": "0 2px",
                         "position": "relative",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
                           "left": "97.06867671691792%",
                           "position": "absolute",
                         }
-                      }>
+                      }
+                    >
                       <div
                         style={
                           Object {
@@ -2226,7 +2430,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                             "transform": "translate(-6px, -1px)",
                             "width": "12px",
                           }
-                        } />
+                        }
+                      />
                     </div>
                   </div>
                 </div>
@@ -2238,7 +2443,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                     "height": "10px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -2253,7 +2459,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  }>
+                  }
+                >
                   <div
                     style={
                       Object {
@@ -2264,7 +2471,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                         "right": "0px",
                         "top": "0px",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
@@ -2275,7 +2483,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                           "right": "0px",
                           "top": "0px",
                         }
-                      } />
+                      }
+                    />
                   </div>
                   <div
                     style={
@@ -2298,7 +2507,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                         "right": "0px",
                         "top": "0px",
                       }
-                    } />
+                    }
+                  />
                   <div
                     onMouseDown={[Function]}
                     onTouchMove={[Function]}
@@ -2309,14 +2519,16 @@ exports[`test NewColorPicker renders correctly 4`] = `
                         "margin": "0 3px",
                         "position": "relative",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
                           "left": "100%",
                           "position": "absolute",
                         }
-                      }>
+                      }
+                    >
                       <div
                         style={
                           Object {
@@ -2339,7 +2551,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                             "transform": "translate(-6px, -1px)",
                             "width": "12px",
                           }
-                        } />
+                        }
+                      />
                     </div>
                   </div>
                 </div>
@@ -2353,7 +2566,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                 "display": "flex",
                 "paddingTop": "16px",
               }
-            }>
+            }
+          >
             <div
               className="flexbox-fix"
               style={
@@ -2366,20 +2580,23 @@ exports[`test NewColorPicker renders correctly 4`] = `
                   "marginLeft": "-6px",
                   "msFlex": "1",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
                     "paddingLeft": "6px",
                     "width": "100%",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
                       "position": "relative",
                     }
-                  }>
+                  }
+                >
                   <input
                     onBlur={[Function]}
                     onChange={[Function]}
@@ -2405,7 +2622,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                         "width": "100%",
                       }
                     }
-                    value="#FD3659" />
+                    value="#FD3659"
+                  />
                   <span
                     onMouseDown={[Function]}
                     style={
@@ -2418,7 +2636,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                         "textAlign": "center",
                         "textTransform": "uppercase",
                       }
-                    }>
+                    }
+                  >
                     hex
                   </span>
                 </div>
@@ -2431,7 +2650,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                   "textAlign": "right",
                   "width": "32px",
                 }
-              }>
+              }
+            >
               <div
                 onClick={[Function]}
                 style={
@@ -2441,7 +2661,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                     "marginTop": "12px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <svg
                   onMouseEnter={[Function]}
                   onMouseOut={[Function]}
@@ -2458,13 +2679,16 @@ exports[`test NewColorPicker renders correctly 4`] = `
                       "width": "24px",
                     }
                   }
-                  viewBox="0 0 24 24">
+                  viewBox="0 0 24 24"
+                >
                   <path
                     d="M12,5.83L15.17,9L16.58,7.59L12,3L7.41,7.59L8.83,9L12,5.83Z"
-                    fill="#333" />
+                    fill="#333"
+                  />
                   <path
                     d="M12,18.17L8.83,15L7.42,16.41L12,21L16.59,16.41L15.17,15Z"
-                    fill="#333" />
+                    fill="#333"
+                  />
                 </svg>
               </div>
             </div>
@@ -2481,7 +2705,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
         Object {
           "backgroundColor": "#243261",
         }
-      }>
+      }
+    >
       #243261
     </div>
     <div
@@ -2490,7 +2715,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
           "position": "absolute",
           "zIndex": "5",
         }
-      }>
+      }
+    >
       <div
         onClick={[Function]}
         style={
@@ -2501,7 +2727,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
             "right": "-1000px",
             "top": "-1000px",
           }
-        } />
+        }
+      />
       <div
         className="chrome-picker"
         style={
@@ -2521,7 +2748,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
             "msBoxShadow": "0 0 2px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.3)",
             "width": "225px",
           }
-        }>
+        }
+      >
         <div
           style={
             Object {
@@ -2535,7 +2763,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
               "position": "relative",
               "width": "100%",
             }
-          }>
+          }
+        >
           <div
             onMouseDown={[Function]}
             onTouchMove={[Function]}
@@ -2554,7 +2783,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                 "right": "0px",
                 "top": "0px",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
@@ -2565,7 +2795,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                   "right": "0px",
                   "top": "0px",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -2581,7 +2812,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                     "right": "0px",
                     "top": "0px",
                   }
-                } />
+                }
+              />
               <div
                 style={
                   Object {
@@ -2590,7 +2822,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                     "position": "absolute",
                     "top": "61.96078431372549%",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -2612,7 +2845,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                       "transform": "translate(-6px, -6px)",
                       "width": "12px",
                     }
-                  } />
+                  }
+                />
               </div>
             </div>
           </div>
@@ -2622,20 +2856,23 @@ exports[`test NewColorPicker renders correctly 4`] = `
             Object {
               "padding": "16px 16px 12px",
             }
-          }>
+          }
+        >
           <div
             className="flexbox-fix"
             style={
               Object {
                 "display": "flex",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
                   "width": "22px",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -2650,7 +2887,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                     "position": "relative",
                     "width": "10px",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -2672,7 +2910,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                       "top": "0px",
                       "zIndex": "2",
                     }
-                  } />
+                  }
+                />
                 <div
                   style={
                     Object {
@@ -2683,7 +2922,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  } />
+                  }
+                />
               </div>
             </div>
             <div
@@ -2695,7 +2935,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                   "flex": "1",
                   "msFlex": "1",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -2703,7 +2944,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                     "marginBottom": "0px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -2725,7 +2967,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  }>
+                  }
+                >
                   <div
                     onMouseDown={[Function]}
                     onTouchMove={[Function]}
@@ -2736,14 +2979,16 @@ exports[`test NewColorPicker renders correctly 4`] = `
                         "margin": "0 2px",
                         "position": "relative",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
                           "left": "62.841530054644814%",
                           "position": "absolute",
                         }
-                      }>
+                      }
+                    >
                       <div
                         style={
                           Object {
@@ -2766,7 +3011,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                             "transform": "translate(-6px, -1px)",
                             "width": "12px",
                           }
-                        } />
+                        }
+                      />
                     </div>
                   </div>
                 </div>
@@ -2778,7 +3024,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                     "height": "10px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -2793,7 +3040,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  }>
+                  }
+                >
                   <div
                     style={
                       Object {
@@ -2804,7 +3052,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                         "right": "0px",
                         "top": "0px",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
@@ -2815,7 +3064,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                           "right": "0px",
                           "top": "0px",
                         }
-                      } />
+                      }
+                    />
                   </div>
                   <div
                     style={
@@ -2838,7 +3088,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                         "right": "0px",
                         "top": "0px",
                       }
-                    } />
+                    }
+                  />
                   <div
                     onMouseDown={[Function]}
                     onTouchMove={[Function]}
@@ -2849,14 +3100,16 @@ exports[`test NewColorPicker renders correctly 4`] = `
                         "margin": "0 3px",
                         "position": "relative",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
                           "left": "100%",
                           "position": "absolute",
                         }
-                      }>
+                      }
+                    >
                       <div
                         style={
                           Object {
@@ -2879,7 +3132,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                             "transform": "translate(-6px, -1px)",
                             "width": "12px",
                           }
-                        } />
+                        }
+                      />
                     </div>
                   </div>
                 </div>
@@ -2893,7 +3147,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                 "display": "flex",
                 "paddingTop": "16px",
               }
-            }>
+            }
+          >
             <div
               className="flexbox-fix"
               style={
@@ -2906,20 +3161,23 @@ exports[`test NewColorPicker renders correctly 4`] = `
                   "marginLeft": "-6px",
                   "msFlex": "1",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
                     "paddingLeft": "6px",
                     "width": "100%",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
                       "position": "relative",
                     }
-                  }>
+                  }
+                >
                   <input
                     onBlur={[Function]}
                     onChange={[Function]}
@@ -2945,7 +3203,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                         "width": "100%",
                       }
                     }
-                    value="#243261" />
+                    value="#243261"
+                  />
                   <span
                     onMouseDown={[Function]}
                     style={
@@ -2958,7 +3217,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                         "textAlign": "center",
                         "textTransform": "uppercase",
                       }
-                    }>
+                    }
+                  >
                     hex
                   </span>
                 </div>
@@ -2971,7 +3231,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                   "textAlign": "right",
                   "width": "32px",
                 }
-              }>
+              }
+            >
               <div
                 onClick={[Function]}
                 style={
@@ -2981,7 +3242,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
                     "marginTop": "12px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <svg
                   onMouseEnter={[Function]}
                   onMouseOut={[Function]}
@@ -2998,13 +3260,16 @@ exports[`test NewColorPicker renders correctly 4`] = `
                       "width": "24px",
                     }
                   }
-                  viewBox="0 0 24 24">
+                  viewBox="0 0 24 24"
+                >
                   <path
                     d="M12,5.83L15.17,9L16.58,7.59L12,3L7.41,7.59L8.83,9L12,5.83Z"
-                    fill="#333" />
+                    fill="#333"
+                  />
                   <path
                     d="M12,18.17L8.83,15L7.42,16.41L12,21L16.59,16.41L15.17,15Z"
-                    fill="#333" />
+                    fill="#333"
+                  />
                 </svg>
               </div>
             </div>
@@ -3015,7 +3280,8 @@ exports[`test NewColorPicker renders correctly 4`] = `
   </div>
   <div
     className="cursor-pointer mr1"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     <svg
       className=""
       height={40}
@@ -3023,43 +3289,52 @@ exports[`test NewColorPicker renders correctly 4`] = `
       viewBox="0 0 40 40"
       width={40}
       xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink">
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
       <defs>
         <circle
           cx={20}
           cy={20}
           id="a"
-          r={20} />
+          r={20}
+        />
         <mask
           fill="#fff"
           height={40}
           id="b"
           width={40}
           x="0"
-          y="0">
+          y="0"
+        >
           <use
-            xlinkHref="#a" />
+            xlinkHref="#a"
+          />
         </mask>
       </defs>
       <g
         fill="none"
-        fillRule="evenodd">
+        fillRule="evenodd"
+      >
         <use
           mask="url(#b)"
           stroke="#979797"
           strokeWidth="4"
-          xlinkHref="#a" />
+          xlinkHref="#a"
+        />
         <g
-          fill="#9B9B9B">
+          fill="#9B9B9B"
+        >
           <path
-            d="M8 20l5-7v14zM13 21v-2h14v2zM32 20l-5 7V13z" />
+            d="M8 20l5-7v14zM13 21v-2h14v2zM32 20l-5 7V13z"
+          />
         </g>
       </g>
     </svg>
   </div>
   <div
     className="cursor-pointer"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     <svg
       className=""
       height={40}
@@ -3067,44 +3342,52 @@ exports[`test NewColorPicker renders correctly 4`] = `
       viewBox="0 0 40 40"
       width={40}
       xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink">
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
       <defs>
         <circle
           cx={20}
           cy={20}
           id="a"
-          r={20} />
+          r={20}
+        />
         <mask
           fill="#fff"
           height={40}
           id="b"
           width={40}
           x="0"
-          y="0">
+          y="0"
+        >
           <use
-            xlinkHref="#a" />
+            xlinkHref="#a"
+          />
         </mask>
       </defs>
       <g
         fill="#333"
-        fillRule="evenodd">
+        fillRule="evenodd"
+      >
         <use
           mask="url(#b)"
           stroke="#333"
           strokeWidth="4"
-          xlinkHref="#a" />
+          xlinkHref="#a"
+        />
         <path
           d="M17.854 26.96l12.57-12.57-1.414-1.415-11.156 11.157-6.157-6.157-1.415 1.414z"
-          fill="#fff" />
+          fill="#fff"
+        />
       </g>
     </svg>
   </div>
 </div>
 `;
 
-exports[`test NewColorPicker renders correctly 5`] = `
+exports[`NewColorPicker renders correctly 5`] = `
 <div
-  className="new-color-picker flex pt2 example">
+  className="new-color-picker flex pt2 example"
+>
   <div>
     <div
       className="color-field flex-auto mr1"
@@ -3113,7 +3396,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
         Object {
           "backgroundColor": "#fd3659",
         }
-      }>
+      }
+    >
       #fd3659
     </div>
     <div
@@ -3122,7 +3406,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
           "position": "absolute",
           "zIndex": "5",
         }
-      }>
+      }
+    >
       <div
         onClick={[Function]}
         style={
@@ -3133,7 +3418,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
             "right": "-1000px",
             "top": "-1000px",
           }
-        } />
+        }
+      />
       <div
         className="chrome-picker"
         style={
@@ -3153,7 +3439,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
             "msBoxShadow": "0 0 2px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.3)",
             "width": "225px",
           }
-        }>
+        }
+      >
         <div
           style={
             Object {
@@ -3167,7 +3454,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
               "position": "relative",
               "width": "100%",
             }
-          }>
+          }
+        >
           <div
             onMouseDown={[Function]}
             onTouchMove={[Function]}
@@ -3186,7 +3474,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                 "right": "0px",
                 "top": "0px",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
@@ -3197,7 +3486,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                   "right": "0px",
                   "top": "0px",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -3213,7 +3503,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                     "right": "0px",
                     "top": "0px",
                   }
-                } />
+                }
+              />
               <div
                 style={
                   Object {
@@ -3222,7 +3513,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                     "position": "absolute",
                     "top": "0.7843137254901933%",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -3244,7 +3536,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                       "transform": "translate(-6px, -6px)",
                       "width": "12px",
                     }
-                  } />
+                  }
+                />
               </div>
             </div>
           </div>
@@ -3254,20 +3547,23 @@ exports[`test NewColorPicker renders correctly 5`] = `
             Object {
               "padding": "16px 16px 12px",
             }
-          }>
+          }
+        >
           <div
             className="flexbox-fix"
             style={
               Object {
                 "display": "flex",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
                   "width": "22px",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -3282,7 +3578,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                     "position": "relative",
                     "width": "10px",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -3304,7 +3601,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                       "top": "0px",
                       "zIndex": "2",
                     }
-                  } />
+                  }
+                />
                 <div
                   style={
                     Object {
@@ -3315,7 +3613,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  } />
+                  }
+                />
               </div>
             </div>
             <div
@@ -3327,7 +3626,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                   "flex": "1",
                   "msFlex": "1",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -3335,7 +3635,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                     "marginBottom": "0px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -3357,7 +3658,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  }>
+                  }
+                >
                   <div
                     onMouseDown={[Function]}
                     onTouchMove={[Function]}
@@ -3368,14 +3670,16 @@ exports[`test NewColorPicker renders correctly 5`] = `
                         "margin": "0 2px",
                         "position": "relative",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
                           "left": "97.06867671691792%",
                           "position": "absolute",
                         }
-                      }>
+                      }
+                    >
                       <div
                         style={
                           Object {
@@ -3398,7 +3702,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                             "transform": "translate(-6px, -1px)",
                             "width": "12px",
                           }
-                        } />
+                        }
+                      />
                     </div>
                   </div>
                 </div>
@@ -3410,7 +3715,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                     "height": "10px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -3425,7 +3731,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  }>
+                  }
+                >
                   <div
                     style={
                       Object {
@@ -3436,7 +3743,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                         "right": "0px",
                         "top": "0px",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
@@ -3447,7 +3755,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                           "right": "0px",
                           "top": "0px",
                         }
-                      } />
+                      }
+                    />
                   </div>
                   <div
                     style={
@@ -3470,7 +3779,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                         "right": "0px",
                         "top": "0px",
                       }
-                    } />
+                    }
+                  />
                   <div
                     onMouseDown={[Function]}
                     onTouchMove={[Function]}
@@ -3481,14 +3791,16 @@ exports[`test NewColorPicker renders correctly 5`] = `
                         "margin": "0 3px",
                         "position": "relative",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
                           "left": "100%",
                           "position": "absolute",
                         }
-                      }>
+                      }
+                    >
                       <div
                         style={
                           Object {
@@ -3511,7 +3823,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                             "transform": "translate(-6px, -1px)",
                             "width": "12px",
                           }
-                        } />
+                        }
+                      />
                     </div>
                   </div>
                 </div>
@@ -3525,7 +3838,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                 "display": "flex",
                 "paddingTop": "16px",
               }
-            }>
+            }
+          >
             <div
               className="flexbox-fix"
               style={
@@ -3538,20 +3852,23 @@ exports[`test NewColorPicker renders correctly 5`] = `
                   "marginLeft": "-6px",
                   "msFlex": "1",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
                     "paddingLeft": "6px",
                     "width": "100%",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
                       "position": "relative",
                     }
-                  }>
+                  }
+                >
                   <input
                     onBlur={[Function]}
                     onChange={[Function]}
@@ -3577,7 +3894,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                         "width": "100%",
                       }
                     }
-                    value="#FD3659" />
+                    value="#FD3659"
+                  />
                   <span
                     onMouseDown={[Function]}
                     style={
@@ -3590,7 +3908,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                         "textAlign": "center",
                         "textTransform": "uppercase",
                       }
-                    }>
+                    }
+                  >
                     hex
                   </span>
                 </div>
@@ -3603,7 +3922,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                   "textAlign": "right",
                   "width": "32px",
                 }
-              }>
+              }
+            >
               <div
                 onClick={[Function]}
                 style={
@@ -3613,7 +3933,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                     "marginTop": "12px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <svg
                   onMouseEnter={[Function]}
                   onMouseOut={[Function]}
@@ -3630,13 +3951,16 @@ exports[`test NewColorPicker renders correctly 5`] = `
                       "width": "24px",
                     }
                   }
-                  viewBox="0 0 24 24">
+                  viewBox="0 0 24 24"
+                >
                   <path
                     d="M12,5.83L15.17,9L16.58,7.59L12,3L7.41,7.59L8.83,9L12,5.83Z"
-                    fill="#333" />
+                    fill="#333"
+                  />
                   <path
                     d="M12,18.17L8.83,15L7.42,16.41L12,21L16.59,16.41L15.17,15Z"
-                    fill="#333" />
+                    fill="#333"
+                  />
                 </svg>
               </div>
             </div>
@@ -3653,7 +3977,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
         Object {
           "backgroundColor": "#243261",
         }
-      }>
+      }
+    >
       #243261
     </div>
     <div
@@ -3662,7 +3987,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
           "position": "absolute",
           "zIndex": "5",
         }
-      }>
+      }
+    >
       <div
         onClick={[Function]}
         style={
@@ -3673,7 +3999,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
             "right": "-1000px",
             "top": "-1000px",
           }
-        } />
+        }
+      />
       <div
         className="chrome-picker"
         style={
@@ -3693,7 +4020,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
             "msBoxShadow": "0 0 2px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.3)",
             "width": "225px",
           }
-        }>
+        }
+      >
         <div
           style={
             Object {
@@ -3707,7 +4035,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
               "position": "relative",
               "width": "100%",
             }
-          }>
+          }
+        >
           <div
             onMouseDown={[Function]}
             onTouchMove={[Function]}
@@ -3726,7 +4055,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                 "right": "0px",
                 "top": "0px",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
@@ -3737,7 +4067,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                   "right": "0px",
                   "top": "0px",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -3753,7 +4084,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                     "right": "0px",
                     "top": "0px",
                   }
-                } />
+                }
+              />
               <div
                 style={
                   Object {
@@ -3762,7 +4094,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                     "position": "absolute",
                     "top": "61.96078431372549%",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -3784,7 +4117,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                       "transform": "translate(-6px, -6px)",
                       "width": "12px",
                     }
-                  } />
+                  }
+                />
               </div>
             </div>
           </div>
@@ -3794,20 +4128,23 @@ exports[`test NewColorPicker renders correctly 5`] = `
             Object {
               "padding": "16px 16px 12px",
             }
-          }>
+          }
+        >
           <div
             className="flexbox-fix"
             style={
               Object {
                 "display": "flex",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
                   "width": "22px",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -3822,7 +4159,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                     "position": "relative",
                     "width": "10px",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -3844,7 +4182,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                       "top": "0px",
                       "zIndex": "2",
                     }
-                  } />
+                  }
+                />
                 <div
                   style={
                     Object {
@@ -3855,7 +4194,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  } />
+                  }
+                />
               </div>
             </div>
             <div
@@ -3867,7 +4207,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                   "flex": "1",
                   "msFlex": "1",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
@@ -3875,7 +4216,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                     "marginBottom": "0px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -3897,7 +4239,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  }>
+                  }
+                >
                   <div
                     onMouseDown={[Function]}
                     onTouchMove={[Function]}
@@ -3908,14 +4251,16 @@ exports[`test NewColorPicker renders correctly 5`] = `
                         "margin": "0 2px",
                         "position": "relative",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
                           "left": "62.841530054644814%",
                           "position": "absolute",
                         }
-                      }>
+                      }
+                    >
                       <div
                         style={
                           Object {
@@ -3938,7 +4283,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                             "transform": "translate(-6px, -1px)",
                             "width": "12px",
                           }
-                        } />
+                        }
+                      />
                     </div>
                   </div>
                 </div>
@@ -3950,7 +4296,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                     "height": "10px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -3965,7 +4312,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                       "right": "0px",
                       "top": "0px",
                     }
-                  }>
+                  }
+                >
                   <div
                     style={
                       Object {
@@ -3976,7 +4324,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                         "right": "0px",
                         "top": "0px",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
@@ -3987,7 +4336,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                           "right": "0px",
                           "top": "0px",
                         }
-                      } />
+                      }
+                    />
                   </div>
                   <div
                     style={
@@ -4010,7 +4360,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                         "right": "0px",
                         "top": "0px",
                       }
-                    } />
+                    }
+                  />
                   <div
                     onMouseDown={[Function]}
                     onTouchMove={[Function]}
@@ -4021,14 +4372,16 @@ exports[`test NewColorPicker renders correctly 5`] = `
                         "margin": "0 3px",
                         "position": "relative",
                       }
-                    }>
+                    }
+                  >
                     <div
                       style={
                         Object {
                           "left": "100%",
                           "position": "absolute",
                         }
-                      }>
+                      }
+                    >
                       <div
                         style={
                           Object {
@@ -4051,7 +4404,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                             "transform": "translate(-6px, -1px)",
                             "width": "12px",
                           }
-                        } />
+                        }
+                      />
                     </div>
                   </div>
                 </div>
@@ -4065,7 +4419,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                 "display": "flex",
                 "paddingTop": "16px",
               }
-            }>
+            }
+          >
             <div
               className="flexbox-fix"
               style={
@@ -4078,20 +4433,23 @@ exports[`test NewColorPicker renders correctly 5`] = `
                   "marginLeft": "-6px",
                   "msFlex": "1",
                 }
-              }>
+              }
+            >
               <div
                 style={
                   Object {
                     "paddingLeft": "6px",
                     "width": "100%",
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
                       "position": "relative",
                     }
-                  }>
+                  }
+                >
                   <input
                     onBlur={[Function]}
                     onChange={[Function]}
@@ -4117,7 +4475,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                         "width": "100%",
                       }
                     }
-                    value="#243261" />
+                    value="#243261"
+                  />
                   <span
                     onMouseDown={[Function]}
                     style={
@@ -4130,7 +4489,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                         "textAlign": "center",
                         "textTransform": "uppercase",
                       }
-                    }>
+                    }
+                  >
                     hex
                   </span>
                 </div>
@@ -4143,7 +4503,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                   "textAlign": "right",
                   "width": "32px",
                 }
-              }>
+              }
+            >
               <div
                 onClick={[Function]}
                 style={
@@ -4153,7 +4514,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
                     "marginTop": "12px",
                     "position": "relative",
                   }
-                }>
+                }
+              >
                 <svg
                   onMouseEnter={[Function]}
                   onMouseOut={[Function]}
@@ -4170,13 +4532,16 @@ exports[`test NewColorPicker renders correctly 5`] = `
                       "width": "24px",
                     }
                   }
-                  viewBox="0 0 24 24">
+                  viewBox="0 0 24 24"
+                >
                   <path
                     d="M12,5.83L15.17,9L16.58,7.59L12,3L7.41,7.59L8.83,9L12,5.83Z"
-                    fill="#333" />
+                    fill="#333"
+                  />
                   <path
                     d="M12,18.17L8.83,15L7.42,16.41L12,21L16.59,16.41L15.17,15Z"
-                    fill="#333" />
+                    fill="#333"
+                  />
                 </svg>
               </div>
             </div>
@@ -4187,7 +4552,8 @@ exports[`test NewColorPicker renders correctly 5`] = `
   </div>
   <div
     className="cursor-pointer mr1"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     <svg
       className=""
       height={40}
@@ -4195,43 +4561,52 @@ exports[`test NewColorPicker renders correctly 5`] = `
       viewBox="0 0 40 40"
       width={40}
       xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink">
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
       <defs>
         <circle
           cx={20}
           cy={20}
           id="a"
-          r={20} />
+          r={20}
+        />
         <mask
           fill="#fff"
           height={40}
           id="b"
           width={40}
           x="0"
-          y="0">
+          y="0"
+        >
           <use
-            xlinkHref="#a" />
+            xlinkHref="#a"
+          />
         </mask>
       </defs>
       <g
         fill="none"
-        fillRule="evenodd">
+        fillRule="evenodd"
+      >
         <use
           mask="url(#b)"
           stroke="#979797"
           strokeWidth="4"
-          xlinkHref="#a" />
+          xlinkHref="#a"
+        />
         <g
-          fill="#9B9B9B">
+          fill="#9B9B9B"
+        >
           <path
-            d="M8 20l5-7v14zM13 21v-2h14v2zM32 20l-5 7V13z" />
+            d="M8 20l5-7v14zM13 21v-2h14v2zM32 20l-5 7V13z"
+          />
         </g>
       </g>
     </svg>
   </div>
   <div
     className="cursor-pointer"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     <svg
       className=""
       height={40}
@@ -4239,35 +4614,42 @@ exports[`test NewColorPicker renders correctly 5`] = `
       viewBox="0 0 40 40"
       width={40}
       xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink">
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
       <defs>
         <circle
           cx={20}
           cy={20}
           id="a"
-          r={20} />
+          r={20}
+        />
         <mask
           fill="#fff"
           height={40}
           id="b"
           width={40}
           x="0"
-          y="0">
+          y="0"
+        >
           <use
-            xlinkHref="#a" />
+            xlinkHref="#a"
+          />
         </mask>
       </defs>
       <g
         fill="#333"
-        fillRule="evenodd">
+        fillRule="evenodd"
+      >
         <use
           mask="url(#b)"
           stroke="#333"
           strokeWidth="4"
-          xlinkHref="#a" />
+          xlinkHref="#a"
+        />
         <path
           d="M17.854 26.96l12.57-12.57-1.414-1.415-11.156 11.157-6.157-6.157-1.415 1.414z"
-          fill="#fff" />
+          fill="#fff"
+        />
       </g>
     </svg>
   </div>

@@ -1,143 +1,173 @@
-exports[`test ColorSwatch renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorSwatch renders correctly 1`] = `
 <svg
   className=""
   height={40}
   onClick={[Function]}
   viewBox="0 0 40 40"
   width={40}
-  xmlns="http://www.w3.org/2000/svg">
+  xmlns="http://www.w3.org/2000/svg"
+>
   <defs>
     <circle
       cx={20}
       cy={20}
       id="a"
-      r={20} />
+      r={20}
+    />
   </defs>
   <g
     fill="none"
     fillRule="evenodd"
-    transform="rotate(45 20 20)">
+    transform="rotate(45 20 20)"
+  >
     <mask
       fill="#fff"
-      id="b">
+      id="b"
+    >
       <use
-        xlinkHref="#a" />
+        xlinkHref="#a"
+      />
     </mask>
     <use
       fill="#ff0000"
-      xlinkHref="#a" />
+      xlinkHref="#a"
+    />
     <path
       d="M20 0h20v40H20z"
       fill="#00ff00"
-      mask="url(#b)" />
+      mask="url(#b)"
+    />
   </g>
 </svg>
 `;
 
-exports[`test ColorSwatch renders correctly 2`] = `
+exports[`ColorSwatch renders correctly 2`] = `
 <svg
   className=""
   height={40}
   onClick={[Function]}
   viewBox="0 0 40 40"
   width={40}
-  xmlns="http://www.w3.org/2000/svg">
+  xmlns="http://www.w3.org/2000/svg"
+>
   <defs>
     <circle
       cx={20}
       cy={20}
       id="a"
-      r={20} />
+      r={20}
+    />
   </defs>
   <g
     fill="none"
     fillRule="evenodd"
-    transform="rotate(45 20 20)">
+    transform="rotate(45 20 20)"
+  >
     <mask
       fill="#fff"
-      id="b">
+      id="b"
+    >
       <use
-        xlinkHref="#a" />
+        xlinkHref="#a"
+      />
     </mask>
     <use
       fill="#ff0000"
-      xlinkHref="#a" />
+      xlinkHref="#a"
+    />
     <path
       d="M20 0h20v40H20z"
       fill="#00ff00"
-      mask="url(#b)" />
+      mask="url(#b)"
+    />
   </g>
 </svg>
 `;
 
-exports[`test ColorSwatch renders different sizes correctly 1`] = `
+exports[`ColorSwatch renders different sizes correctly 1`] = `
 <svg
   className=""
   height={64}
   onClick={[Function]}
   viewBox="0 0 64 64"
   width={64}
-  xmlns="http://www.w3.org/2000/svg">
+  xmlns="http://www.w3.org/2000/svg"
+>
   <defs>
     <circle
       cx={32}
       cy={32}
       id="a"
-      r={32} />
+      r={32}
+    />
   </defs>
   <g
     fill="none"
     fillRule="evenodd"
-    transform="rotate(45 32 32)">
+    transform="rotate(45 32 32)"
+  >
     <mask
       fill="#fff"
-      id="b">
+      id="b"
+    >
       <use
-        xlinkHref="#a" />
+        xlinkHref="#a"
+      />
     </mask>
     <use
       fill="#ff0000"
-      xlinkHref="#a" />
+      xlinkHref="#a"
+    />
     <path
       d="M32 0h32v64H32z"
       fill="#00ff00"
-      mask="url(#b)" />
+      mask="url(#b)"
+    />
   </g>
 </svg>
 `;
 
-exports[`test ColorSwatch renders rotations sizes correctly 1`] = `
+exports[`ColorSwatch renders rotations sizes correctly 1`] = `
 <svg
   className=""
   height={64}
   onClick={[Function]}
   viewBox="0 0 64 64"
   width={64}
-  xmlns="http://www.w3.org/2000/svg">
+  xmlns="http://www.w3.org/2000/svg"
+>
   <defs>
     <circle
       cx={32}
       cy={32}
       id="a"
-      r={32} />
+      r={32}
+    />
   </defs>
   <g
     fill="none"
     fillRule="evenodd"
-    transform="rotate(45 32 32)">
+    transform="rotate(45 32 32)"
+  >
     <mask
       fill="#fff"
-      id="b">
+      id="b"
+    >
       <use
-        xlinkHref="#a" />
+        xlinkHref="#a"
+      />
     </mask>
     <use
       fill="#ff0000"
-      xlinkHref="#a" />
+      xlinkHref="#a"
+    />
     <path
       d="M32 0h32v64H32z"
       fill="#00ff00"
-      mask="url(#b)" />
+      mask="url(#b)"
+    />
   </g>
 </svg>
 `;
