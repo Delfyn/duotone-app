@@ -6,7 +6,7 @@ exports[`test UploaderColors renders correctly 1`] = `
   </p>
   <div>
     <svg
-      className="mr1 mb1"
+      className="cursor-pointer mr1 mb1"
       height={40}
       onClick={undefined}
       version="1.1"
