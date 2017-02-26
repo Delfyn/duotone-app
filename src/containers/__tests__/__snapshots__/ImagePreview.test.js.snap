@@ -8,7 +8,7 @@ exports[`ImagePreview renders correctly 1`] = `
     className="image-background z1"
     style={
       Object {
-        "backgroundImage": "url()",
+        "backgroundImage": null,
       }
     }
   />

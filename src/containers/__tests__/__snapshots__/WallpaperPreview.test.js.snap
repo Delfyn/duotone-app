@@ -8,14 +8,9 @@ exports[`WallpaperPreview renders correctly 1`] = `
     className="image-background z1"
     style={
       Object {
-        "backgroundImage": "url()",
+        "backgroundImage": null,
       }
     }
-  />
-  <img
-    alt="my-image.png"
-    className="image-preview mx-auto z2"
-    src=""
   />
 </div>
 `;

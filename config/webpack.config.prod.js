@@ -168,17 +168,16 @@ module.exports = {
     ]
   },
 
-  // We use PostCSS for autoprefixing only.
   postcss: function() {
     return [
       cssnext({
         browser: [
           '>1%',
-          'last 4 versions',
+          'last 3 versions',
           'Firefox ESR',
           'not ie < 9', // React doesn't support IE8 anyway
         ],
-        "compress": true,
+        compress: true,
         features: {
           rem: true,
           pseudoElements: false,

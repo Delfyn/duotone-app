@@ -22,16 +22,18 @@ const Wallpaper = ({
   <div className="image-background-wrapper flex items-center">
     <div
       className="image-background z1"
-      style={{ backgroundImage: `url(${preview})` }}
+      style={{ backgroundImage: preview ? `url(${preview})` : null }}
     />
     {
-      <DuotoneImage
+      originalFile
+      ? <DuotoneImage
         className="image-preview mx-auto z2"
         alt={fileName}
         primaryColor={primary}
         secondaryColor={secondary}
         src={originalFile}
       />
+      : null
     }
   </div>
 );

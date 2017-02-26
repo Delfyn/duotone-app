@@ -1,5 +1,8 @@
 {
+	"short_name": "Duotone",
 	"name": "Duotone - Colorful Image Filter",
+	"background_color": "#263661",
+	"theme_color": "#fd3659",
 	"icons": [
 		{
 			"src": "\/android-chrome-36x36.png",
