@@ -36,9 +36,13 @@ class Uploader extends Component {
       downloadLink.download = 'duotone-export.png';
       downloadLink.target = '_blank';
       downloadLink.style.display = 'none';
-      document.body.appendChild(downloadLink);
-      downloadLink.click();
-      document.body.removeChild(downloadLink);
+      if (document.body) {
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+      }
+      if (document.body && document.body.removeChild) {
+        document.body.removeChild(downloadLink);
+      }
     };
   }
   render() {
