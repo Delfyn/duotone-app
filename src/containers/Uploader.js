@@ -28,10 +28,10 @@ const mapDispatchToProps = dispatch => ({
   onAddDuotoneClick: (primary, secondary) => {
     dispatch(addDuotoneColor(primary, secondary));
   },
-  onSetPrimaryClick: (primary) => {
+  onSetPrimaryClick: primary => {
     dispatch(setPrimaryColor(primary));
   },
-  onSetSecondaryClick: (secondary) => {
+  onSetSecondaryClick: secondary => {
     dispatch(setSecondaryColor(secondary));
   },
   onToggleColorPicker: () => {
@@ -39,9 +39,8 @@ const mapDispatchToProps = dispatch => ({
   },
 });
 
-const UploaderContainer = connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(Uploader);
+const UploaderContainer = connect(mapStateToProps, mapDispatchToProps)(
+  Uploader,
+);
 
 export default UploaderContainer;

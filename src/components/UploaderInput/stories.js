@@ -13,7 +13,5 @@ storiesOf('UploaderInput', module)
     />
   ))
   .add('without file', () => (
-    <UploaderInput
-      openFilepicker={action('openFilepicker')}
-    />
+    <UploaderInput openFilepicker={action('openFilepicker')} />
   ));

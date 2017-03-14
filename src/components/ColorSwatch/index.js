@@ -11,30 +11,30 @@ type PropType = {
   rotation?: number,
 };
 
-const ColorSwatch = ({
-  onClick,
-  className = '',
-  primary = '#9B9B9B',
-  secondary = '#4A4A4A',
-  size = 40,
-  rotation = 45,
-}: PropType) => (
+const ColorSwatch = (
+  {
+    onClick,
+    className = '',
+    primary = '#9B9B9B',
+    secondary = '#4A4A4A',
+    size = 40,
+    rotation = 45,
+  }: PropType,
+) => (
   <svg
     className={className}
     onClick={() => onClick(primary, secondary)}
     width={size}
     height={size}
     viewBox={`0 0 ${size} ${size}`}
-    xmlns="http://www.w3.org/2000/svg"
-  >
+    xmlns="http://www.w3.org/2000/svg">
     <defs>
       <circle id="a" cx={size / 2} cy={size / 2} r={size / 2} />
     </defs>
     <g
       fill="none"
       fillRule="evenodd"
-      transform={`rotate(${rotation} ${size / 2} ${size / 2})`}
-    >
+      transform={`rotate(${rotation} ${size / 2} ${size / 2})`}>
       <mask id="b" fill="#fff">
         <use xlinkHref="#a" />
       </mask>

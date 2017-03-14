@@ -11,7 +11,7 @@ class WallpaperPreview extends Component {
   }
   state = {
     preview: String,
-  }
+  };
   componentWillReceiveProps(nextProps: any) {
     if (nextProps.originalFile) {
       this.setPreviewImage(nextProps);

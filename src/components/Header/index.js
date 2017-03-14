@@ -17,7 +17,11 @@ const Header = () => (
         </a>
       </li>
       <li className="h6 inline-block">
-        <a href={twitterUrl('http://duotoneapp.com', '🙌 Duotone image filter on the web by 🙌 http://duotoneapp.com cc @_floriannagel #duotone')}>
+        <a
+          href={twitterUrl(
+            'http://duotoneapp.com',
+            '🙌 Duotone image filter on the web by 🙌 http://duotoneapp.com cc @_floriannagel #duotone',
+          )}>
           <img alt="Show some love on Twitter" src={twitterLogo} />
         </a>
       </li>

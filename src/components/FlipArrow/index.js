@@ -9,11 +9,13 @@ type Props = {
   onClick?: Function,
 };
 
-const FlipArrow = ({
-  className = '',
-  size = 40,
-  onClick,
-}: Props) => (
+const FlipArrow = (
+  {
+    className = '',
+    size = 40,
+    onClick,
+  }: Props,
+) => (
   <svg
     className={className}
     onClick={onClick}
@@ -21,8 +23,7 @@ const FlipArrow = ({
     height={size}
     viewBox={`0 0 ${size} ${size}`}
     xmlns="http://www.w3.org/2000/svg"
-    xmlnsXlink="http://www.w3.org/1999/xlink"
-  >
+    xmlnsXlink="http://www.w3.org/1999/xlink">
     <defs>
       <circle id="a" cx={size / 2} cy={size / 2} r={size / 2} />
       <mask id="b" x="0" y="0" width={size} height={size} fill="#fff">

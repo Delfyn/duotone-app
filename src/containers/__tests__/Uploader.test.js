@@ -26,9 +26,7 @@ test('Uploader renders correctly', () => {
   const store = { subscribe, dispatch, getState };
   const props = {};
 
-  const component = renderer.create(
-    <Uploader store={store} {...props} />,
-  );
+  const component = renderer.create(<Uploader store={store} {...props} />);
   const tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 

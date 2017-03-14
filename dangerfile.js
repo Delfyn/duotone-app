@@ -22,16 +22,20 @@ if (packageChanged && !lockfileChanged) {
 const bigPRThreshold = 400;
 if (danger.github.pr.additions + danger.github.pr.deletions > bigPRThreshold) {
   warn(':exclamation: Big PR');
-  markdown('> Pull Request size seems relatively large. If Pull Request contains multiple changes, split each into separate PR will helps faster, easier review.');
+  markdown(
+    '> Pull Request size seems relatively large. If Pull Request contains multiple changes, split each into separate PR will helps faster, easier review.',
+  );
 }
 
 // new js files should have `@flow` at the top
 const jsFiles = danger.git.created_files.filter(path => path.endsWith('js'));
-const unFlowedFiles = jsFiles.filter((filepath) => {
+const unFlowedFiles = jsFiles.filter(filepath => {
   const content = fs.readFileSync(filepath);
   return !content.includes('@flow');
 });
 
 if (unFlowedFiles.length > 0) {
-  warn(`These new JS files do not have Flow enabled: ${unFlowedFiles.join(', ')}`);
+  warn(
+    `These new JS files do not have Flow enabled: ${unFlowedFiles.join(', ')}`,
+  );
 }

@@ -15,10 +15,12 @@ const UploaderWithProps = ({ showColorPicker = false }) => (
       {
         primary: '#D42D48',
         secondary: '#243261',
-      }, {
+      },
+      {
         primary: '#D3F178',
         secondary: '#263661',
-      }, {
+      },
+      {
         primary: '#FEFFFF',
         secondary: '#D5E5E8',
       },
@@ -45,6 +47,4 @@ storiesOf('Uploader', module)
       <UploaderWithProps showColorPicker />
     </Panel>
   ))
-  .add('simple example without Panel', () => (
-    <UploaderWithProps />
-  ));
+  .add('simple example without Panel', () => <UploaderWithProps />);

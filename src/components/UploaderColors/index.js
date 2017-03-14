@@ -18,19 +18,23 @@ type Props = {
   onSetSecondaryClick: Function,
 };
 
-const UploaderColors = ({
-  primary,
-  secondary,
-  duotones = [],
-  showColorPicker,
-  onDuotoneClick,
-  onToggleColorPicker,
-  onAddDuotoneClick,
-  onSetPrimaryClick,
-  onSetSecondaryClick,
-}: Props) => (
+const UploaderColors = (
+  {
+    primary,
+    secondary,
+    duotones = [],
+    showColorPicker,
+    onDuotoneClick,
+    onToggleColorPicker,
+    onAddDuotoneClick,
+    onSetPrimaryClick,
+    onSetSecondaryClick,
+  }: Props,
+) => (
   <main className="my2 px2 py2">
-    <p>Select a color combination or add your own to change the look of your photo.</p>
+    <p>
+      Select a color combination or add your own to change the look of your photo.
+    </p>
     <div>
       {duotones.map((duotone, index) => (
         <ColorSwatch
@@ -45,18 +49,17 @@ const UploaderColors = ({
         rotation={showColorPicker ? 45 : 0}
         onClick={onToggleColorPicker}
       />
-      {
-        showColorPicker
+      {showColorPicker
         ? <NewColorPicker
-          className="mt1"
-          primary={primary}
-          secondary={secondary}
-          onAddDuotoneClick={onAddDuotoneClick}
-          onSetDuotoneClick={onDuotoneClick}
-          onSetPrimaryClick={onSetPrimaryClick}
-          onSetSecondaryClick={onSetSecondaryClick}
-        /> : null
-      }
+            className="mt1"
+            primary={primary}
+            secondary={secondary}
+            onAddDuotoneClick={onAddDuotoneClick}
+            onSetDuotoneClick={onDuotoneClick}
+            onSetPrimaryClick={onSetPrimaryClick}
+            onSetSecondaryClick={onSetSecondaryClick}
+          />
+        : null}
     </div>
   </main>
 );

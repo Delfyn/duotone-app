@@ -28,8 +28,8 @@ class ColorPicker extends Component {
     displayColorPicker: Boolean,
     color: String,
   };
-  handleClick: () => void
-  handleClose: () => void
+  handleClick: () => void;
+  handleClose: () => void;
   render() {
     const popover = {
       position: 'absolute',
@@ -47,18 +47,19 @@ class ColorPicker extends Component {
         <div
           className={classNames('color-field flex-auto', this.props.className)}
           onClick={this.handleClick}
-          style={{ backgroundColor: this.props.color }}
-        >
+          style={{ backgroundColor: this.props.color }}>
           {this.props.color}
         </div>
-        { this.state.displayColorPicker ? <div style={popover}>
-          <div style={cover} onClick={this.handleClose} />
-          <ChromePicker
-            color={this.props.color}
-            onChangeComplete={color => this.props.onChange(color.hex)}
-            disableAlpha
-          />
-        </div> : null }
+        {this.state.displayColorPicker
+          ? <div style={popover}>
+              <div style={cover} onClick={this.handleClose} />
+              <ChromePicker
+                color={this.props.color}
+                onChangeComplete={color => this.props.onChange(color.hex)}
+                disableAlpha
+              />
+            </div>
+          : null}
       </div>
     );
   }

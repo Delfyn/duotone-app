@@ -12,10 +12,12 @@ const UploaderColorsWithProps = ({ showColorPicker = false }) => (
       {
         primary: '#D42D48',
         secondary: '#243261',
-      }, {
+      },
+      {
         primary: '#D3F178',
         secondary: '#263661',
-      }, {
+      },
+      {
         primary: '#FEFFFF',
         secondary: '#D5E5E8',
       },
@@ -30,9 +32,7 @@ const UploaderColorsWithProps = ({ showColorPicker = false }) => (
 );
 
 storiesOf('UploaderColors', module)
-  .add('with closed color picker', () => (
-    <UploaderColorsWithProps />
-  ))
+  .add('with closed color picker', () => <UploaderColorsWithProps />)
   .add('with open color picker', () => (
     <UploaderColorsWithProps showColorPicker />
   ));

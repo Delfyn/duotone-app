@@ -8,7 +8,7 @@ export function formatFileName(name: string) {
 }
 
 export function formatFileSize(size: number) {
-  return (`${Math.round((size / 1024) * 100) / 100} KB`);
+  return `${Math.round(size / 1024 * 100) / 100} KB`;
 }
 
 export function formatFileDescription(name: string, size: number) {

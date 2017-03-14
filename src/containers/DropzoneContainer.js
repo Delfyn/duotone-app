@@ -17,9 +17,8 @@ const mapDispatchToProps = dispatch => ({
   },
 });
 
-const DropzoneContainer = connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(Dropzone);
+const DropzoneContainer = connect(mapStateToProps, mapDispatchToProps)(
+  Dropzone,
+);
 
 export default DropzoneContainer;

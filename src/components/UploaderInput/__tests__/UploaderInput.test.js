@@ -3,9 +3,7 @@ import renderer from 'react-test-renderer';
 import UploaderInput from '../index';
 
 test('UploaderInput renders correctly', () => {
-  const component = renderer.create(
-    <UploaderInput />,
-  );
+  const component = renderer.create(<UploaderInput />);
   const tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 });

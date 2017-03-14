@@ -13,9 +13,12 @@ describe('errors reducer', () => {
     MockDate.set(mockedDate);
 
     expect(
-      reducer({}, {
-        type: INVALID_FILE,
-      }),
+      reducer(
+        {},
+        {
+          type: INVALID_FILE,
+        },
+      ),
     ).toEqual({
       type: 'invalid-file',
       message: errorMessages.invalidFile,
@@ -24,12 +27,15 @@ describe('errors reducer', () => {
     });
 
     expect(
-      reducer({
-        type: 'random-error',
-        randomField: true,
-      }, {
-        type: INVALID_FILE,
-      }),
+      reducer(
+        {
+          type: 'random-error',
+          randomField: true,
+        },
+        {
+          type: INVALID_FILE,
+        },
+      ),
     ).toEqual({
       type: 'invalid-file',
       message: errorMessages.invalidFile,

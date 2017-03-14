@@ -12,7 +12,7 @@ type actionType = {
   type: string,
   primary?: string,
   secondary?: string,
-}
+};
 
 export const initialState = {
   primary: duotones[0].primary,
@@ -41,10 +41,12 @@ const colors = (state: Object = initialState, action: actionType) => {
     case ADD_DUOTONE_COLOR:
       return {
         ...state,
-        duotones: state.duotones.concat([{
-          primary: action.primary,
-          secondary: action.secondary,
-        }]),
+        duotones: state.duotones.concat([
+          {
+            primary: action.primary,
+            secondary: action.secondary,
+          },
+        ]),
       };
     default:
       return state;

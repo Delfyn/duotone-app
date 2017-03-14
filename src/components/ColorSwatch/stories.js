@@ -6,9 +6,7 @@ import ColorSwatch from './index';
 import duotones from '../../lib/color-claim';
 
 storiesOf('ColorSwatch', module)
-  .add('without props', () => (
-    <ColorSwatch onClick={action('clicked')} />
-  ))
+  .add('without props', () => <ColorSwatch onClick={action('clicked')} />)
   .add('with different colors', () => (
     <div>
       <ColorSwatch

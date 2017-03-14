@@ -21,9 +21,7 @@ test('ImagePreview renders correctly', () => {
   const store = { subscribe, dispatch, getState };
   const props = {};
 
-  const component = renderer.create(
-    <ImagePreview store={store} {...props} />,
-  );
+  const component = renderer.create(<ImagePreview store={store} {...props} />);
   const tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 

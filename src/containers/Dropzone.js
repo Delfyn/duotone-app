@@ -35,21 +35,20 @@ class Dropzone extends Component {
   }
   state = {
     showDragMessage: Boolean,
-  }
-  onDragEnter: () => void
-  onDragLeave: () => void
-  onDrop: (acceptedFiles: any, rejectedFiles: any) => void
-  openFilepicker: () => void
-  dropzone: any
+  };
+  onDragEnter: () => void;
+  onDragLeave: () => void;
+  onDrop: (acceptedFiles: any, rejectedFiles: any) => void;
+  openFilepicker: () => void;
+  dropzone: any;
   render() {
     const props = Object.assign({}, this.props);
     delete props.children;
-    const childrenWithProps = Children.map(this.props.children,
-      child => React.cloneElement(child, {
+    const childrenWithProps = Children.map(this.props.children, child =>
+      React.cloneElement(child, {
         ...props,
         openFilepicker: this.openFilepicker,
-      }),
-    );
+      }));
 
     return (
       <ReactDropzone
@@ -61,8 +60,9 @@ class Dropzone extends Component {
         accept="image/*"
         onDragEnter={this.onDragEnter}
         onDragLeave={this.onDragLeave}
-        ref={(node) => { this.dropzone = node; }}
-      >
+        ref={node => {
+          this.dropzone = node;
+        }}>
         <div className="drop-area z3">
           {this.state.showDragMessage ? <DragOverlay /> : null}
           {childrenWithProps}

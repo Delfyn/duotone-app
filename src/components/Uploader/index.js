@@ -11,7 +11,7 @@ type Props = {
   originalFile: any,
   primary: string,
   secondary: string,
-}
+};
 
 class Uploader extends Component {
   constructor(props: Props) {
@@ -23,8 +23,8 @@ class Uploader extends Component {
   }
   state = {
     downloadDisabled: Boolean,
-  }
-  onDownloadClick: () => void
+  };
+  onDownloadClick: () => void;
   onDownloadClick() {
     const { originalFile, primary, secondary } = this.props;
     const img = new Image();
@@ -54,8 +54,7 @@ class Uploader extends Component {
           <Button
             className="flex-auto"
             disabled={this.props.downloadDisabled}
-            onClick={this.onDownloadClick}
-          >
+            onClick={this.onDownloadClick}>
             Download
           </Button>
         </footer>

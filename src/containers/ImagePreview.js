@@ -10,8 +10,6 @@ const mapStateToProps = state => ({
   originalFile: state.files.originalFile,
 });
 
-const WallpaperContainer = connect(
-  mapStateToProps,
-)(WallpaperPreview);
+const WallpaperContainer = connect(mapStateToProps)(WallpaperPreview);
 
 export default WallpaperContainer;

@@ -10,12 +10,14 @@ type Props = {
   onClick: Function,
 };
 
-const NewColorSwatch = ({
-  className = '',
-  size = 40,
-  rotation = 0,
-  onClick,
-}: Props) => (
+const NewColorSwatch = (
+  {
+    className = '',
+    size = 40,
+    rotation = 0,
+    onClick,
+  }: Props,
+) => (
   <svg
     className={className}
     onClick={onClick}
@@ -24,8 +26,7 @@ const NewColorSwatch = ({
     viewBox={`0 0 ${size} ${size}`}
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
-    xmlnsXlink="http://www.w3.org/1999/xlink"
-  >
+    xmlnsXlink="http://www.w3.org/1999/xlink">
     <defs>
       <circle id="path-1" cx={size / 2} cy={size / 2} r={size / 2} />
       <mask
@@ -36,8 +37,7 @@ const NewColorSwatch = ({
         y="0"
         width={size}
         height={size}
-        fill="white"
-      >
+        fill="white">
         <use xlinkHref="#path-1" />
       </mask>
       <polygon
@@ -52,8 +52,7 @@ const NewColorSwatch = ({
         y="0"
         width={size / 2}
         height={size / 2}
-        fill="white"
-      >
+        fill="white">
         <use xlinkHref="#path-3" />
       </mask>
     </defs>
@@ -63,8 +62,7 @@ const NewColorSwatch = ({
       strokeWidth="1"
       fill="none"
       fillRule="evenodd"
-      transform={`rotate(${rotation} ${size / 2} ${size / 2})`}
-    >
+      transform={`rotate(${rotation} ${size / 2} ${size / 2})`}>
       <g id="Artboard-2" stroke="#979797">
         <g id="Plus">
           <g id="Oval-3">

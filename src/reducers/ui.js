@@ -1,6 +1,9 @@
 /* @flow */
 
-import { ADD_DUOTONE_COLOR, TOGGLE_COLOR_PICKER } from '../constants/actionTypes';
+import {
+  ADD_DUOTONE_COLOR,
+  TOGGLE_COLOR_PICKER,
+} from '../constants/actionTypes';
 
 type actionType = {
   type: string,

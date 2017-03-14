@@ -10,14 +10,11 @@ const BackgroundDecorator = story => (
       background: '#243261',
       width: '100%',
       height: '100vh',
-    }}
-  >
+    }}>
     {story()}
   </div>
 );
 
 storiesOf('DragOverlay', module)
   .addDecorator(BackgroundDecorator)
-  .add('without props', () => (
-    <DragOverlay />
-  ));
+  .add('without props', () => <DragOverlay />);

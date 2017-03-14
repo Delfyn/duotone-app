@@ -5,9 +5,5 @@ import { storiesOf } from '@kadira/storybook';
 import ActivityBar from './index';
 
 storiesOf('ActivityBar', module)
-  .add('active', () => (
-    <ActivityBar active />
-  ))
-  .add('inactive', () => (
-    <ActivityBar />
-  ));
+  .add('active', () => <ActivityBar active />)
+  .add('inactive', () => <ActivityBar />);

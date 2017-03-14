@@ -9,17 +9,20 @@ import {
 import makeActionCreator from '../lib/make-action-creator';
 
 export const addDuotoneColor = makeActionCreator(
-  ADD_DUOTONE_COLOR, 'primary', 'secondary',
+  ADD_DUOTONE_COLOR,
+  'primary',
+  'secondary',
 );
 
 export const setDuotoneColor = makeActionCreator(
-  SET_DUOTONE_COLOR, 'primary', 'secondary',
+  SET_DUOTONE_COLOR,
+  'primary',
+  'secondary',
 );
 
-export const setPrimaryColor = makeActionCreator(
-  SET_PRIMARY_COLOR, 'primary',
-);
+export const setPrimaryColor = makeActionCreator(SET_PRIMARY_COLOR, 'primary');
 
 export const setSecondaryColor = makeActionCreator(
-  SET_SECONDARY_COLOR, 'secondary',
+  SET_SECONDARY_COLOR,
+  'secondary',
 );
