@@ -13,15 +13,27 @@ script:
 
 before_deploy:
   - yarn run build
+  - yarn run build-storybook
 
 deploy:
-  provider: s3
-  access_key_id: AKIAIG24TUJL7TFPV6TA
-  secret_access_key:
-    secure: QU38WkILH349RuJvrsMUtybKqUZ24JFzWhx9wQpZvPdj0Kc9EXuyb1rsRRNMj6AmPQRtnboFH5wrhDGwRRsR2nHLNYS5AMoeKr6WEov8Rt3F19LX2du6/KeD+dQdAEsxkHLYpG1GZ1NBJLBKKOrZTVEpseWAcX35LijCNCsdiwNRi8SD7M/WkT1Qp4Z/PNBijzD7VxMaDZBh+2TDsywp/pNEqEqAU9QdeHK6og9HgN3tg7sIl5c1c0tdJt5sTl6b9pu3ALJ1LS+UNnruAh42NFdN1BsFJjQGG+AfRF7Vp8yNRTukY0exBZwrT+1khdJjCDSg/143U+VEyhmHBiv4X5zpfVBU2civAjOofiatq+ZIF66zlTSc+ls8xD695axSC2JY2bPJiqT4K8T8YE9ZUM8U2v09bEG4lJOSELbYAY/NTTTh+lpp8iatluiAdyeiz7up3LCqxv96i9R53lAs5JnzeB5MKOMLSGPKyEv7LQwYplTjMNIz6cDVOwK4OLFoWvc+Tq01gYUJ+BsUoayaNsaZFPn5w+tOTHy6oXTRqu2wIqR/1/u6hKh73a+qcYvRuInyQlPBfH1c+yW0Q5CHhFlXBY04xgy14gCIWCnwWU5v3WR1GS1IbQAvhyawBpOPKFRHKK6LyOrheECkVPdEMUf+s2pJUx5bdoOk5qyZFdI=
-  bucket: duotoneapp.com
-  region: eu-central-1
-  skip_cleanup: true
-  local_dir: build
-  on:
-    branch: master
+  - provider: s3
+    access_key_id: AKIAIG24TUJL7TFPV6TA
+    secret_access_key:
+      secure: QU38WkILH349RuJvrsMUtybKqUZ24JFzWhx9wQpZvPdj0Kc9EXuyb1rsRRNMj6AmPQRtnboFH5wrhDGwRRsR2nHLNYS5AMoeKr6WEov8Rt3F19LX2du6/KeD+dQdAEsxkHLYpG1GZ1NBJLBKKOrZTVEpseWAcX35LijCNCsdiwNRi8SD7M/WkT1Qp4Z/PNBijzD7VxMaDZBh+2TDsywp/pNEqEqAU9QdeHK6og9HgN3tg7sIl5c1c0tdJt5sTl6b9pu3ALJ1LS+UNnruAh42NFdN1BsFJjQGG+AfRF7Vp8yNRTukY0exBZwrT+1khdJjCDSg/143U+VEyhmHBiv4X5zpfVBU2civAjOofiatq+ZIF66zlTSc+ls8xD695axSC2JY2bPJiqT4K8T8YE9ZUM8U2v09bEG4lJOSELbYAY/NTTTh+lpp8iatluiAdyeiz7up3LCqxv96i9R53lAs5JnzeB5MKOMLSGPKyEv7LQwYplTjMNIz6cDVOwK4OLFoWvc+Tq01gYUJ+BsUoayaNsaZFPn5w+tOTHy6oXTRqu2wIqR/1/u6hKh73a+qcYvRuInyQlPBfH1c+yW0Q5CHhFlXBY04xgy14gCIWCnwWU5v3WR1GS1IbQAvhyawBpOPKFRHKK6LyOrheECkVPdEMUf+s2pJUx5bdoOk5qyZFdI=
+    bucket: duotoneapp.com
+    region: eu-central-1
+    skip_cleanup: true
+    local_dir: build
+    on:
+      branch: master
+
+  - provider: s3
+    access_key_id: AKIAIG24TUJL7TFPV6TA
+    secret_access_key:
+      secure: QU38WkILH349RuJvrsMUtybKqUZ24JFzWhx9wQpZvPdj0Kc9EXuyb1rsRRNMj6AmPQRtnboFH5wrhDGwRRsR2nHLNYS5AMoeKr6WEov8Rt3F19LX2du6/KeD+dQdAEsxkHLYpG1GZ1NBJLBKKOrZTVEpseWAcX35LijCNCsdiwNRi8SD7M/WkT1Qp4Z/PNBijzD7VxMaDZBh+2TDsywp/pNEqEqAU9QdeHK6og9HgN3tg7sIl5c1c0tdJt5sTl6b9pu3ALJ1LS+UNnruAh42NFdN1BsFJjQGG+AfRF7Vp8yNRTukY0exBZwrT+1khdJjCDSg/143U+VEyhmHBiv4X5zpfVBU2civAjOofiatq+ZIF66zlTSc+ls8xD695axSC2JY2bPJiqT4K8T8YE9ZUM8U2v09bEG4lJOSELbYAY/NTTTh+lpp8iatluiAdyeiz7up3LCqxv96i9R53lAs5JnzeB5MKOMLSGPKyEv7LQwYplTjMNIz6cDVOwK4OLFoWvc+Tq01gYUJ+BsUoayaNsaZFPn5w+tOTHy6oXTRqu2wIqR/1/u6hKh73a+qcYvRuInyQlPBfH1c+yW0Q5CHhFlXBY04xgy14gCIWCnwWU5v3WR1GS1IbQAvhyawBpOPKFRHKK6LyOrheECkVPdEMUf+s2pJUx5bdoOk5qyZFdI=
+    bucket: storybook.duotoneapp.com
+    region: eu-central-1
+    skip_cleanup: true
+    local_dir: storybook-static
+    on:
+      branch: master
