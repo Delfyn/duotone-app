@@ -11,9 +11,12 @@ type ButtonProps = {
   disabled?: boolean,
 };
 
-const Button = (
-  { className, children, onClick, disabled = false }: ButtonProps,
-) => (
+const Button = ({
+  className,
+  children,
+  onClick,
+  disabled = false,
+}: ButtonProps) => (
   <button
     className={cx(className, 'btn')}
     onClick={onClick}

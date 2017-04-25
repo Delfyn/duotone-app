@@ -48,7 +48,8 @@ class Dropzone extends Component {
       React.cloneElement(child, {
         ...props,
         openFilepicker: this.openFilepicker,
-      }));
+      }),
+    );
 
     return (
       <ReactDropzone

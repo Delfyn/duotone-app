@@ -10,7 +10,8 @@ const Panel = (props: any) => {
   const childrenWithProps = Children.map(props.children, child =>
     cloneElement(child, {
       ...childProps,
-    }));
+    }),
+  );
 
   return (
     <Draggable handle=".panel-draggable" allowAnyClick={false}>

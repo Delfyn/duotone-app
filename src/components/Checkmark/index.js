@@ -9,14 +9,12 @@ type Props = {
   onClick?: Function,
 };
 
-const Checkmark = (
-  {
-    className = '',
-    color = '#333',
-    size = 40,
-    onClick,
-  }: Props,
-) => (
+const Checkmark = ({
+  className = '',
+  color = '#333',
+  size = 40,
+  onClick,
+}: Props) => (
   <svg
     className={className}
     onClick={onClick}

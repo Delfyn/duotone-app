@@ -17,17 +17,15 @@ type Props = {
   onSetSecondaryClick: Function,
 };
 
-const NewColorPicker = (
-  {
-    className,
-    primary,
-    secondary,
-    onAddDuotoneClick,
-    onSetDuotoneClick,
-    onSetPrimaryClick,
-    onSetSecondaryClick,
-  }: Props,
-) => (
+const NewColorPicker = ({
+  className,
+  primary,
+  secondary,
+  onAddDuotoneClick,
+  onSetDuotoneClick,
+  onSetPrimaryClick,
+  onSetSecondaryClick,
+}: Props) => (
   <div className={classNames('new-color-picker flex pt2', className)}>
     <ColorPicker className="mr1" color={primary} onChange={onSetPrimaryClick} />
     <ColorPicker

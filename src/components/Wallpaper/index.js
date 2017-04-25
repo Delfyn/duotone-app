@@ -12,15 +12,13 @@ type Props = {
   originalFile: any,
 };
 
-const Wallpaper = (
-  {
-    preview = '',
-    primary,
-    secondary,
-    fileName,
-    originalFile,
-  }: Props,
-) => (
+const Wallpaper = ({
+  preview = '',
+  primary,
+  secondary,
+  fileName,
+  originalFile,
+}: Props) => (
   <div className="image-background-wrapper flex items-center">
     <div
       className="image-background z1"

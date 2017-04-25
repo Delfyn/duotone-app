@@ -18,19 +18,17 @@ type Props = {
   onSetSecondaryClick: Function,
 };
 
-const UploaderColors = (
-  {
-    primary,
-    secondary,
-    duotones = [],
-    showColorPicker,
-    onDuotoneClick,
-    onToggleColorPicker,
-    onAddDuotoneClick,
-    onSetPrimaryClick,
-    onSetSecondaryClick,
-  }: Props,
-) => (
+const UploaderColors = ({
+  primary,
+  secondary,
+  duotones = [],
+  showColorPicker,
+  onDuotoneClick,
+  onToggleColorPicker,
+  onAddDuotoneClick,
+  onSetPrimaryClick,
+  onSetSecondaryClick,
+}: Props) => (
   <main className="my2 px2 py2">
     <p>
       Select a color combination or add your own to change the look of your photo.

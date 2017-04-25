@@ -9,13 +9,7 @@ type Props = {
   onClick?: Function,
 };
 
-const FlipArrow = (
-  {
-    className = '',
-    size = 40,
-    onClick,
-  }: Props,
-) => (
+const FlipArrow = ({ className = '', size = 40, onClick }: Props) => (
   <svg
     className={className}
     onClick={onClick}

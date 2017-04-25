@@ -11,16 +11,14 @@ type PropType = {
   rotation?: number,
 };
 
-const ColorSwatch = (
-  {
-    onClick,
-    className = '',
-    primary = '#9B9B9B',
-    secondary = '#4A4A4A',
-    size = 40,
-    rotation = 45,
-  }: PropType,
-) => (
+const ColorSwatch = ({
+  onClick,
+  className = '',
+  primary = '#9B9B9B',
+  secondary = '#4A4A4A',
+  size = 40,
+  rotation = 45,
+}: PropType) => (
   <svg
     className={className}
     onClick={() => onClick(primary, secondary)}

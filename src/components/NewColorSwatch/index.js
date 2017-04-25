@@ -10,14 +10,12 @@ type Props = {
   onClick: Function,
 };
 
-const NewColorSwatch = (
-  {
-    className = '',
-    size = 40,
-    rotation = 0,
-    onClick,
-  }: Props,
-) => (
+const NewColorSwatch = ({
+  className = '',
+  size = 40,
+  rotation = 0,
+  onClick,
+}: Props) => (
   <svg
     className={className}
     onClick={onClick}
